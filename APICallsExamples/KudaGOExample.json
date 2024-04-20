@@ -1,0 +1,362 @@
+{
+    "success": true,
+    "count": 31388,
+    "data": [
+      {
+        "id": 186819,
+        "title": "открытие обновлённого «Музея иллюзий»",
+        "place": {
+          "id": 18128,
+          "title": "Музей иллюзий на Большой Морской",
+          "slug": "muzej-illyuzij-peterburg",
+          "address": "ул. Большая Морская, д. 5",
+          "phone": "+7 800 700-06-80",
+          "subway": "Адмиралтейская",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/muzej-illyuzij-peterburg/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.93707100000002,
+            "lon": 30.31682899999999
+          },
+          "is_stub": false
+        },
+        "description": "Музей иллюзий на Большой Морской открывается после масштабной реконструкции. Его посетители попадут внутрь живых картин, созданных в технике изменённой реальности, переживут массу приключений и погрузятся в сухой бассейн из полумиллиона шариков мятного цвета.",
+        "categories": [
+          "kids",
+          "entertainment"
+        ],
+        "age_restriction": 0,
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 172266,
+        "title": "акция в клубе виртуальной реальности Futurum",
+        "place": {
+          "id": 30608,
+          "title": "клуб виртуальной реальности Futurum",
+          "slug": "attraktsion-futurum",
+          "address": "ул. Садовая, д. 59",
+          "phone": "+7 812 409-98-42",
+          "subway": "Садовая, Сенная Площадь, Спасская",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/attraktsion-futurum/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.92256510000008,
+            "lon": 30.30700679999956
+          },
+          "is_stub": false
+        },
+        "description": "Думаете, что бы попробовать интересного? Не знаете, как удивить друзей? Головокружительные приключения по фантастическим мирам, сражения на космических станциях, дружеские турниры — в клубе виртуальной реальности Futurum можно оригинально развлечься.",
+        "categories": [
+          "stock",
+          "entertainment"
+        ],
+        "age_restriction": "6+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 187294,
+        "title": "Акция «Пробная неделя в школе английского языка Frog School за 990 рублей»",
+        "place": {
+          "id": 33167,
+          "title": "Центр английского языка Frog School",
+          "slug": "uchebnoe-zavedenie-frog-school",
+          "address": "Большой проспект П. С., д. 43",
+          "phone": "",
+          "subway": "",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/uchebnoe-zavedenie-frog-school/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.96079669999991,
+            "lon": 30.30430169999959
+          },
+          "is_stub": true
+        },
+        "description": "Давно мечтаете выучить английский язык, но не можете найти эффективные курсы? Освойте грамматику и лексику, преодолейте языковой барьер, научитесь понимать разговорную речь без зубрёжки в школе английского языка Frog School.",
+        "categories": [
+          "education"
+        ],
+        "age_restriction": "16+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 181073,
+        "title": "концерт «Рояль. TOP 10. Величайшие сочинения»",
+        "place": {
+          "id": 10241,
+          "title": "Петрикирхе — кафедральный собор Святых Петра и Павла",
+          "slug": "kafedralnyj-sobor-svyatogo-petra",
+          "address": "просп. Невский, д. 22–24",
+          "phone": "",
+          "subway": "Невский Проспект",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/kafedralnyj-sobor-svyatogo-petra/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.9369686346603,
+            "lon": 30.32392776776936
+          },
+          "is_stub": false
+        },
+        "description": "Десять самых известных произведений, написанных для фортепиано, в программе одного концерта.",
+        "categories": [
+          "concert"
+        ],
+        "age_restriction": "6+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/76/68/76687ae0cad5d84d6e214d3f2df8c4f6.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 191210,
+        "title": "концерт «Ференц Лист. Лучшее и безумное» от Amadeus Concerts",
+        "place": {
+          "id": 10241,
+          "title": "Петрикирхе — кафедральный собор Святых Петра и Павла",
+          "slug": "kafedralnyj-sobor-svyatogo-petra",
+          "address": "просп. Невский, д. 22–24",
+          "phone": "",
+          "subway": "Невский Проспект",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/kafedralnyj-sobor-svyatogo-petra/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.9369686346603,
+            "lon": 30.32392776776936
+          },
+          "is_stub": false
+        },
+        "description": "В старинном лютеранском соборе прозвучит музыка Ференца Листа — пианиста-виртуоза, которого называли «дьяволом за роялем».",
+        "categories": [
+          "concert"
+        ],
+        "age_restriction": "6+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/93/cf/93cf18aa43118108ffb31b2b45d6d395.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 178508,
+        "title": "концерт «Величайшие оперные арии» от Amadeus Concerts",
+        "place": {
+          "id": 10241,
+          "title": "Петрикирхе — кафедральный собор Святых Петра и Павла",
+          "slug": "kafedralnyj-sobor-svyatogo-petra",
+          "address": "просп. Невский, д. 22–24",
+          "phone": "",
+          "subway": "Невский Проспект",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/kafedralnyj-sobor-svyatogo-petra/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.9369686346603,
+            "lon": 30.32392776776936
+          },
+          "is_stub": false
+        },
+        "description": "Коллекция оперных хитов прозвучит в необычном для этого жанра антураже — под сводами старинного собора Петрикирхе, стены которого обеспечивают великолепную акустику для самых сложных музыкальных произведений.",
+        "categories": [
+          "concert",
+          "entertainment"
+        ],
+        "age_restriction": 0,
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/49/7d/497d3006ff852125b461a88e66be5744.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 191103,
+        "title": "курс «ЕГЭ по обществознанию — базовый»",
+        "place": {
+          "id": 33483,
+          "title": "учебный центр «Нейрон»",
+          "slug": "uchebnoe-zavedenie-nejron",
+          "address": "Средний пр-т. В.О., д. 36/40.",
+          "phone": "",
+          "subway": "Василеостровская",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/uchebnoe-zavedenie-nejron/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.94189000000003,
+            "lon": 30.27610980000011
+          },
+          "is_stub": false
+        },
+        "description": "За двенадцать недель участники курса подробно разберут все темы школьной программы по обществознанию, необходимые для сдачи ЕГЭ на высокий балл.",
+        "categories": [
+          "kids",
+          "education"
+        ],
+        "age_restriction": "16+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 191102,
+        "title": "курс «ЕГЭ по физике — базовый»",
+        "place": {
+          "id": 33483,
+          "title": "учебный центр «Нейрон»",
+          "slug": "uchebnoe-zavedenie-nejron",
+          "address": "Средний пр-т. В.О., д. 36/40.",
+          "phone": "",
+          "subway": "Василеостровская",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/uchebnoe-zavedenie-nejron/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.94189000000003,
+            "lon": 30.27610980000011
+          },
+          "is_stub": false
+        },
+        "description": "На протяжении двенадцати недель лектор Егор Суедов будет вместе с участниками курса подробно разбирать все темы из школьной программы по физике, необходимые для успешной сдачи ЕГЭ.",
+        "categories": [
+          "kids",
+          "education"
+        ],
+        "age_restriction": "16+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 103847,
+        "title": "балеты «В лесу», «Дуэнде» и «Белая тьма» в Михайловском театре",
+        "place": {
+          "id": 1313,
+          "title": "Михайловский театр",
+          "slug": "mihajlovskij-teatr",
+          "address": "пл. Искусств, д. 1",
+          "phone": "+7 812 595-43-05",
+          "subway": "Гостиный двор",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/mihajlovskij-teatr/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.93775599999999,
+            "lon": 30.329567
+          },
+          "is_stub": false
+        },
+        "description": "Три одноактных балета Начо Дуато — это движение между светом, романтикой, магией и жесткостью, напряжением, реквиемом.",
+        "categories": [
+          "theater"
+        ],
+        "age_restriction": "12+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": 104985,
+        "title": "опера «Бастьен и Бастьенна» в Эрмитажном театре",
+        "place": {
+          "id": 10388,
+          "title": "Эрмитажный театр",
+          "slug": "ermitazhnyj-teatr",
+          "address": "наб. Дворцовая, д. 34",
+          "phone": "+7 812 710-90-30",
+          "subway": "Адмиралтейская",
+          "location": "spb",
+          "site_url": "https://kudago.com/spb/place/ermitazhnyj-teatr/",
+          "is_closed": false,
+          "coords": {
+            "lat": 59.9427470554098,
+            "lon": 30.31772195870419
+          },
+          "is_stub": false
+        },
+        "description": "Опера в картинках для семейного просмотра. За 15 минут до оперы начнётся интермедия в зрительном зале, во время которой детей познакомят с музыкальными инструментами.",
+        "categories": [
+          "theater",
+          "kids"
+        ],
+        "age_restriction": "6+",
+        "is_free": false,
+        "images": [
+          {
+            "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+            "source": {
+              "name": "",
+              "link": ""
+            }
+          }
+        ]
+      }
+    ]
+  }

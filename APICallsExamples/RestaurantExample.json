@@ -1,0 +1,1507 @@
+{
+    "count": 624,
+    "next": "https://data.gov.spb.ru/api/v2/datasets/143/versions/latest/data/570/?page=2&per_page=100",
+    "previous": null,
+    "results": [
+      {
+        "oid": 6093,
+        "name": "Антикафе 12 комнат",
+        "name_en": "Timecafe 12 komnat",
+        "address_manual": "Санкт-Петербург, ул. Большая Морская, 19",
+        "phone": "7 (812) 923-70-96",
+        "www": "http://12komnat.com/",
+        "email": "TWELVEROOMSSPB@GMAIL.COM",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934686,
+          30.314718
+        ]
+      },
+      {
+        "oid": 6095,
+        "name": "FD Антикафе",
+        "name_en": "FD timeclub",
+        "address_manual": "Санкт-Петербург, Невский проспект, дом 11",
+        "phone": "+7 (812) 418-23-81",
+        "www": "vk.com/fdfree",
+        "email": "contact@fdfree.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.936282,
+          30.316057
+        ]
+      },
+      {
+        "oid": 6099,
+        "name": "Антикафе Квартира 55",
+        "name_en": "Timecafe Kvartirka",
+        "address_manual": "Санкт-Петербург, ул. Оптиков, 38, корп.1",
+        "phone": "618-28-55",
+        "www": "http://vk.com/familyanticafe55",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.999984,
+          30.212032
+        ]
+      },
+      {
+        "oid": 6102,
+        "name": "Антикафе \"МЕЧТА.TV\"",
+        "name_en": "Timecafe Mechta TV",
+        "address_manual": "Санкт-Петербург, пр.Тореза, д. 95",
+        "phone": "+7(911) 755-64-78+7(812) 384-64-95",
+        "www": "Https://vk.com/me4tatv",
+        "email": "",
+        "kitchen": "",
+        "for_disabled": "Нет",
+        "coord": [
+          60.009651,
+          30.346932
+        ]
+      },
+      {
+        "oid": 6103,
+        "name": "Антикафе \"Свободное время\"",
+        "name_en": "Timecafe Svobodnoe vremya",
+        "address_manual": "Санкт-Петербург, 1-ая линия В.О., д.14",
+        "phone": "994-58-99",
+        "www": "http://vk.com/anticafespb",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.940343,
+          30.291596
+        ]
+      },
+      {
+        "oid": 6106,
+        "name": "Антикафе \"Часы не спешат\"",
+        "name_en": "Timecafe Chasy ne speshat",
+        "address_manual": "Санкт-Петербург, ул. Жуковского, 5",
+        "phone": "+7 (812) 273-10-28",
+        "www": "http://chasynespeshat.ru/ http://vk.com/chasynespeshat",
+        "email": "chasynespeshat@yandex.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935574,
+          30.350768
+        ]
+      },
+      {
+        "oid": 6108,
+        "name": "Freak-zone",
+        "name_en": "Steampunk timecafe",
+        "address_manual": "Санкт-Петербург, ул. 1-я Советская, 4",
+        "phone": "244-68-26",
+        "www": "http://vk.com/freak_zone",
+        "email": "freak.zone.spb@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.931625,
+          30.363191
+        ]
+      },
+      {
+        "oid": 6120,
+        "name": "Свободное пространство \"Циферблат\"",
+        "name_en": "Timecafe Tchiferblat",
+        "address_manual": "Санкт-Петербург, Невский проспект, д. 81",
+        "phone": "7 (960) 285-69-46",
+        "www": "http://ziferblat.net/",
+        "email": "clockface.spb@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.930818,
+          30.359553
+        ]
+      },
+      {
+        "oid": 6121,
+        "name": "Антикафе \"Цифербург\"",
+        "name_en": "Timecafe Tchiferburg",
+        "address_manual": "Санкт-Петербург,  набережная реки Фонтанки, 20",
+        "phone": "7 (981) 180 70 22",
+        "www": "http://vk.com/ziferburg",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935263,
+          30.33458
+        ]
+      },
+      {
+        "oid": 6122,
+        "name": "Тайм-кафе \"Миракл\"",
+        "name_en": "Timecafe Miracle",
+        "address_manual": "Санкт-Петербург, Мошков пер., 4",
+        "phone": "570-13-14",
+        "www": "http://www.itsamiracle.ru/",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.943372,
+          30.321806
+        ]
+      },
+      {
+        "oid": 6124,
+        "name": "Интернет-кафе 59'57'",
+        "name_en": "Internet Cafe 59'57'",
+        "address_manual": "м. Достоевская, ул. Разъезжая д.1",
+        "phone": "+7 (812) 400-12-29",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          55.756143,
+          52.056005
+        ]
+      },
+      {
+        "oid": 6129,
+        "name": "Интернет-клуб Золотая Середина",
+        "name_en": "Zolotaya Seredina Internet Club",
+        "address_manual": "м. Садовая/м.Сенная, ул. Гражданская, 16",
+        "phone": "+7 (812) 571–00–02",
+        "www": null,
+        "email": "ccclab@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          56.13284,
+          47.221551
+        ]
+      },
+      {
+        "oid": 6134,
+        "name": "Интернет-клуб Strike",
+        "name_en": "Strike Internet Club",
+        "address_manual": "м. Озерки, пр. Художников, 14",
+        "phone": "7 (812) 318-38-23\r\n 7 (812) 510-67-51",
+        "www": null,
+        "email": "strike@yandex.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          60.038375,
+          30.344596
+        ]
+      },
+      {
+        "oid": 6152,
+        "name": "Антикафе-клуб «Мансарда»",
+        "name_en": "Timecafe Mansarda",
+        "address_manual": "Санкт-Петербург, Марата ул., д. 36-38",
+        "phone": "987-55-12",
+        "www": "http://clubmansarda.ru",
+        "email": "http://vk.com/clubmansarda",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.925701,
+          30.352573
+        ]
+      },
+      {
+        "oid": 6153,
+        "name": "Пышечная",
+        "name_en": "Pyshechnaya",
+        "address_manual": "м. Невский проспект, ул. Большая Конюшенная, 25.",
+        "phone": "+7 (812) 314-08-68",
+        "www": "https://vk.com/club74224",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.93726,
+          30.322165
+        ]
+      },
+      {
+        "oid": 6156,
+        "name": "Пышечная",
+        "name_en": "Pyshechnaya",
+        "address_manual": "м. Сенная/Садовая/Спасская, ул. Садовая, 32",
+        "phone": "+7 (812) 310-52-39",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.699272,
+          30.452394
+        ]
+      },
+      {
+        "oid": 6157,
+        "name": "Playloft GaGa",
+        "name_en": "Playloft GaGa",
+        "address_manual": "Малая Морская, 15/7 (Вход с Гороховой 7)",
+        "phone": "7(812) 924-83-61",
+        "www": "http://playloftgaga.ru/ http://vk.com/playloftgaga",
+        "email": "playloft@gaga.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935313,
+          30.311305
+        ]
+      },
+      {
+        "oid": 6158,
+        "name": "Пышечная \"Шарк\"",
+        "name_en": "Pyshechnaya \"Shark\"",
+        "address_manual": "м. Чёрная речка, ул. Савушкина, 1/2",
+        "phone": "+7 (812) 496-11-90",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.987033,
+          30.300857
+        ]
+      },
+      {
+        "oid": 6462,
+        "name": "Абердин",
+        "name_en": "Aberdeen",
+        "address_manual": "м. Чернышевская, 191028, Санкт-Петербург, Литейный пр., 10",
+        "phone": "+7 (812) 400-22-17",
+        "www": "www.abeerdeen.ru",
+        "email": "nosms@abeerdeen.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.945909,
+          30.349708
+        ]
+      },
+      {
+        "oid": 6463,
+        "name": "Бир Хаус",
+        "name_en": "BEER HOUSE",
+        "address_manual": "м. Площадь Восстания, ул. Некрасова, 25\r\nм. Гостиный Двор, Невский пр., 62\r\nм. Маяковская, ул. Марата, 2\r\nм. Академическая, Гражданский пр., 36\r\nм. Пионерская, Коломяжский пр., 15/2\r\nм. Пр. Просвящения, пр. Энгельса, 139\r\nм. Пр. Ветеранов, бул. Новаторов, 11\r\nм. Парк Победы, Варшавская ул., 23/3\r\nм. Комендантский пр., Комендантский пр., 30/1\r\nм. Технологический институт, ул. Бронницкая, 4\r\nм. Чернышевская, ул. Чайковского, 38\r\nм. Старая деревня, ул. Савушкина, 143\r\nм. Садовая/Сенная, Московский пр., 8\r\nм. Звездная, ул. Ленсовета, 90\r\nм. Пр. Большевиков, пр.Пятилеток, 2\r\nм. Московская, Московский пр., 216",
+        "phone": "+7(812) 244-74-54",
+        "www": "www.beerhousebar.ru",
+        "email": "nj@streetbar.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.938193,
+          30.359167
+        ]
+      },
+      {
+        "oid": 6465,
+        "name": "Бир Кониг",
+        "name_en": "BIER KONIG",
+        "address_manual": "м. Площадь Александра Невского, 191024, Санкт-Петербург, Невский пр., 170",
+        "phone": "+7 (812) 717-17-06",
+        "www": "www.bier-konig.ru",
+        "email": "7171706@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.926273,
+          30.378409
+        ]
+      },
+      {
+        "oid": 6466,
+        "name": "Бир Кониг",
+        "name_en": "BIER KONIG",
+        "address_manual": "м. Садовая/Сенная, 191023, Санкт-Петербург, Гороховая ул., 40",
+        "phone": "+7 (812) 310-95-85",
+        "www": "www.bier-konig.ru",
+        "email": "7171706@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.927369,
+          30.323935
+        ]
+      },
+      {
+        "oid": 6469,
+        "name": "Джагер Хаус",
+        "name_en": "JAGER HAUS",
+        "address_manual": "м. Новочеркасская, Свердловская наб., д. 60;\r\nм. Маяковская, Невский пр., д. 84-86\r\nм. Маяковская, ул. Марата, д. 4\r\nм. Чкаловская; Малый пр. П.С., д. 40\r\nм. Садовая, ул. Гороховая, д. 34\r\nм. Василеостровская, Средний пр. В.О., д. 64",
+        "phone": "+7 (812) 611-11-10",
+        "www": "www.jagerhaus.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.921241,
+          30.338533
+        ]
+      },
+      {
+        "oid": 6473,
+        "name": "Джеймс Кук",
+        "name_en": "JAMES COOK",
+        "address_manual": "м. Невский пр., 191186, Санкт-Петербург, Шведский пер., 2",
+        "phone": "+7(964)344-11-99",
+        "www": "https://vk.com/jamescookpub",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.938892,
+          30.325534
+        ]
+      },
+      {
+        "oid": 6474,
+        "name": "Брассерия Kriek",
+        "name_en": "Brasserie KRIEK",
+        "address_manual": "м. Гостиный двор, 191023, Санкт-Петербург, Невский пр., д. 64",
+        "phone": "+7 (812) 611-11-10, \r\n+7(812) 418-24-25, \r\n+7(812) 611-11-10,\r\n+7(812) 418-24-25",
+        "www": "www.kriek.ru",
+        "email": "kriek@kriek.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937337,
+          30.324501
+        ]
+      },
+      {
+        "oid": 6479,
+        "name": "Оливер Твист",
+        "name_en": "Oliver Twist",
+        "address_manual": "м. Гостиный двор, 191014, Санкт-Петербург, ул. Белинского, 3",
+        "phone": "+7 (812) 272-33-61",
+        "www": "www.dickensrest.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937977,
+          30.345243
+        ]
+      },
+      {
+        "oid": 6480,
+        "name": "Пиквик Паб",
+        "name_en": "Pickwick Pub",
+        "address_manual": "м. Чернышевская, 191123, Санкт-Петербург, ул. Рылеева, 6",
+        "phone": "+7 (812) 275-61-41",
+        "www": "www.dickensrest.ru",
+        "email": "dickens.pub@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.942516,
+          30.356391
+        ]
+      },
+      {
+        "oid": 6481,
+        "name": "Рингобеллс",
+        "name_en": "Ring O'Bells",
+        "address_manual": "м. Достоевская, 191025, Санкт-Петербург, Колокольная ул., 4",
+        "phone": "+7 (812) 764-22-89",
+        "www": "http://www.ringo-bells.ru",
+        "email": "ringobells@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928884,
+          30.349276
+        ]
+      },
+      {
+        "oid": 6483,
+        "name": "SПБ - Самый Правильный Бар",
+        "name_en": "SPB - Bar",
+        "address_manual": "м. Гостиный Двор, 191123, Санкт-Петербург, Садовая ул., 14/52",
+        "phone": "+7 (812) 655-67-10",
+        "www": "www.barspb.ru",
+        "email": "office@barspb.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934682,
+          30.335685
+        ]
+      },
+      {
+        "oid": 6486,
+        "name": "Тара Бруч",
+        "name_en": "TARA BROOСH",
+        "address_manual": "м. Пл. Восстания, 191024, Санкт-Петербург, 2-я Советская ул.,18\r\nм. Чёрная речка,197342, Санкт-Петербург, Торжковская ул., 6",
+        "phone": "+7 (812) 336-66-66",
+        "www": "www.vk.com/thepub",
+        "email": "tarabrooch@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.930588,
+          30.372489
+        ]
+      },
+      {
+        "oid": 6488,
+        "name": "Темплет Бар",
+        "name_en": "The Templet Bar",
+        "address_manual": "м. Пл. Восстания, 191014, Санкт-Петербург, ул. Некрасова, 37",
+        "phone": "+7 (812) 579-18-55",
+        "www": "http://templetbar.ru/templet-centr/",
+        "email": "mail@templetbar.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.938432,
+          30.362976
+        ]
+      },
+      {
+        "oid": 6489,
+        "name": "Тауэр Паб",
+        "name_en": "Tower Pub",
+        "address_manual": "м. Невский пр., 191186, Санкт-Петербург, Невский пр., д. 22-24",
+        "phone": "+7 (812) 315-14-31",
+        "www": "www.pub-tower.ru",
+        "email": "admin@pub-tower.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937337,
+          30.324501
+        ]
+      },
+      {
+        "oid": 6494,
+        "name": "ВАРШТАЙНЕР ФОРУМ",
+        "name_en": "Warsteiner FORUM",
+        "address_manual": "м. Пл. Восстания, 191036, Санкт-Петербург, Невский пр., 120",
+        "phone": "+7 (812) 717-54-06",
+        "www": "www.wf120.ru",
+        "email": "wf120@inbox.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.9308,
+          30.363649
+        ]
+      },
+      {
+        "oid": 6496,
+        "name": "ДИКИЙ ОСКАР",
+        "name_en": "Wild Oskar",
+        "address_manual": "м. Чернышевская, 191014, Санкт-Петербург, Кирочная ул., 11",
+        "phone": "+7 (812) 275-38-88, +7 (903) 095-69-68",
+        "www": "www.wildoscar.gidm.ru",
+        "email": "wildoscarpub@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.943674,
+          30.35455
+        ]
+      },
+      {
+        "oid": 6498,
+        "name": "ЗОЛОТАЯ ПИНТА",
+        "name_en": "GOLDEN PINTA",
+        "address_manual": "м. Чернышевская, 191028, Санкт-Петербург, Фурштатская ул., 9",
+        "phone": "+7 (812) 719-60-15, +7 (911) 123-61-85",
+        "www": "www.goldenpint.ru",
+        "email": "goldenpint.spb@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.944954,
+          30.352924
+        ]
+      },
+      {
+        "oid": 6499,
+        "name": "КАФЕ ТРАППИСТ",
+        "name_en": "CAFE Trappist",
+        "address_manual": "м. Чернышевская, 191014, Санкт-Петербург, ул. Радищева, д. 36",
+        "phone": "+7 (812) 275-99-35",
+        "www": "cafetrappist.ru",
+        "email": "burovkokkov@beercard.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.941371,
+          30.363317
+        ]
+      },
+      {
+        "oid": 6501,
+        "name": "КОНТАКТ БАР",
+        "name_en": "CONTACT BAR",
+        "address_manual": "м. Владимирская, 191002, Санкт-Петербург, Владимирский пр., 17",
+        "phone": "+7  (812) 951-83-95",
+        "www": "kontaktbar.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928812,
+          30.345908
+        ]
+      },
+      {
+        "oid": 6507,
+        "name": "МАККЛЕЙН",
+        "name_en": "McClain",
+        "address_manual": "м. Владимирская, 191040, Санкт-Петербург, Кузнечный пер., 22",
+        "phone": "+7 (911) 247-81-07",
+        "www": "http://vk.com/mc_clane",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.92672,
+          30.357298
+        ]
+      },
+      {
+        "oid": 6508,
+        "name": "МАРИУС ПАБ",
+        "name_en": "Marius Pub",
+        "address_manual": "м. Маяковская, 191025, Санкт-Петербург, ул. Марата, 11",
+        "phone": "+7 (812) 315-48-80",
+        "www": "www.mariuspub.ru",
+        "email": "marius_pub@swisscenter.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.929479,
+          30.353984
+        ]
+      },
+      {
+        "oid": 6509,
+        "name": "O'HOOLIGANS",
+        "name_en": "O'HOOLIGANS",
+        "address_manual": "м. Невский пр., 191186, Санкт-Петербург, ул. Большая Конюшенная, д. 14",
+        "phone": "+7 (812) 964-80-40",
+        "www": "www.ohooligans.ru",
+        "email": "admin@ohooligans.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937337,
+          30.324501
+        ]
+      },
+      {
+        "oid": 6510,
+        "name": "O'HООLIGANS",
+        "name_en": "O'HООLIGANS",
+        "address_manual": "м. Пл. Восстания, 191024, Санкт-Петербург, ул. Бакунина, д. 5",
+        "phone": "+7 (812) 964-34-84",
+        "www": "ohooligans.ru",
+        "email": "admin@ohooligans.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.92965,
+          30.375085
+        ]
+      },
+      {
+        "oid": 6513,
+        "name": "Пиворама",
+        "name_en": "Pivorama",
+        "address_manual": "м. Пл. Александра Невского,  191317, Санкт-Петербург, пл. Александра Невского, 2, гостиница \"Москва\"",
+        "phone": "+7 (812) 945-10-52",
+        "www": "www.pivorama.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.924393,
+          30.386619
+        ]
+      },
+      {
+        "oid": 6515,
+        "name": "Подстреленная гусыня",
+        "name_en": "Podstrelennaya gusynya",
+        "address_manual": "м. Пл. Восстания, 191036, Санкт-Петербург, ул. Восстания, 17",
+        "phone": "+7 (812) 719-71-19",
+        "www": "www.pivnicespb.ru",
+        "email": "gsmobi@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934934,
+          30.360946
+        ]
+      },
+      {
+        "oid": 6516,
+        "name": "Подстреленная гусыня",
+        "name_en": "Podstrelennaya gusynya",
+        "address_manual": "м. Владимирская, 191002, Санкт-Петербург, Владимирский пр., д. 13/9, вход с Графского пер.",
+        "phone": "+7 (812) 712-47-10",
+        "www": "www.pivnicespb.ru",
+        "email": "gsmobi@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.929935,
+          30.347309
+        ]
+      },
+      {
+        "oid": 6520,
+        "name": "Телеграф Паб",
+        "name_en": "Telegraph Pub",
+        "address_manual": "м. Достоевская, 191025, Санкт-Петербург, ул. Рубинштейна, 3",
+        "phone": "+7 (812) 327-74-79\t\r\n+7 (812) 327-74-75",
+        "www": "http://www.pub-telegraph.ru",
+        "email": "telegraph-pub@yandex.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.931986,
+          30.34545
+        ]
+      },
+      {
+        "oid": 6525,
+        "name": "ВИЛЬЯМ БАСС",
+        "name_en": "William Bass",
+        "address_manual": "м. Пл.Восстания, 191040, Санкт-Петербург, Лиговский пр., 53",
+        "phone": "+7 (812) 717-93-39",
+        "www": "www.williambass.ru",
+        "email": "basspub53@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.929055,
+          30.359436
+        ]
+      },
+      {
+        "oid": 6526,
+        "name": "Фогги Дью",
+        "name_en": "Foggy Dew",
+        "address_manual": "м. Пл. Восстания, 191014, Санкт-Петербург, ул. Восстания, д. 39",
+        "phone": "+7 (812) 273-62-63",
+        "www": "http://foggydew.pub/",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.939708,
+          30.360874
+        ]
+      },
+      {
+        "oid": 6528,
+        "name": "Хэратс паб",
+        "name_en": "Harat's Pub",
+        "address_manual": "м. Пл. Восстания, 191036, Санкт-Петербург, Невский пр., 109",
+        "phone": "+7 (812) 717-12-09",
+        "www": "www.harats.ru",
+        "email": "dir.harats@yandex.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928672,
+          30.369803
+        ]
+      },
+      {
+        "oid": 6530,
+        "name": "ШЕРЛОК",
+        "name_en": "Sherlok",
+        "address_manual": "м. Чернышевская, 191123, Санкт-Петербург, ул.Захарьевская, 13",
+        "phone": "+7 (812) 955-01-10",
+        "www": "http://pubsherlock.ru/",
+        "email": "pubsherlock.spb@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.946572,
+          30.358852
+        ]
+      },
+      {
+        "oid": 6531,
+        "name": "ШИЛЛИНГ",
+        "name_en": "Shilling",
+        "address_manual": "м. Сенная пл., 190031, Санкт-Петербург, ул. Ефимова, 3",
+        "phone": "+7 (812) 313-99-70, \r\n+7 (921) 324-24-29",
+        "www": "https://vk.com/club13399431",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.931107,
+          30.355861
+        ]
+      },
+      {
+        "oid": 6532,
+        "name": "12 КОМНАТ",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Большая Морская ул., 19",
+        "phone": "+7 (812) 923-70-96",
+        "www": "www.12komnat.com",
+        "email": "twelveroomsspb@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934686,
+          30.314718
+        ]
+      },
+      {
+        "oid": 6533,
+        "name": "Душевная кухня",
+        "name_en": null,
+        "address_manual": "Санкт-Петербург, Шведский пер.,2",
+        "phone": "+7 (911) 009-55-48",
+        "www": "www.17-19.ru",
+        "email": "gorodskoekafe@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.943638,
+          30.34827
+        ]
+      },
+      {
+        "oid": 6535,
+        "name": "ART CROSS",
+        "name_en": null,
+        "address_manual": "191024, Санкт-Петербург, Перекупной пер., 12/13",
+        "phone": "+7 (981) 880-28-13\r\n +7 (812) 577-41-89",
+        "www": "https://vk.com/artcross",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.92906,
+          30.378049
+        ]
+      },
+      {
+        "oid": 6548,
+        "name": "LE MENU",
+        "name_en": null,
+        "address_manual": "197198, Санкт-Петербург, Кронверкский пр., 79/1",
+        "phone": "+7 812 933–52–29",
+        "www": "http://le-menu.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.923978,
+          30.33776
+        ]
+      },
+      {
+        "oid": 6552,
+        "name": "PHILIBERT",
+        "name_en": null,
+        "address_manual": "191119, Санкт-Петербург, Коломенская ул., 29, гостиница \"Peter Ville\"",
+        "phone": "+7 (812) 607-41-39",
+        "www": "www.philibert.ru",
+        "email": "info@philibert.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.922887,
+          30.352726
+        ]
+      },
+      {
+        "oid": 6553,
+        "name": "RIMINI",
+        "name_en": null,
+        "address_manual": "191123, Санкт-Петербург, Фурштатская ул., 46",
+        "phone": "+7 (812) 272-86-18",
+        "www": "www.rimini-cafe.ru",
+        "email": "cafe-rimini@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.945224,
+          30.36276
+        ]
+      },
+      {
+        "oid": 6556,
+        "name": "SUNNY GEORGIA,",
+        "name_en": null,
+        "address_manual": "197082, Санкт-Петербург, ул.Туристская, д. 22",
+        "phone": "+7 (812) 24-391-24",
+        "www": "www.sunnygeorgia.com",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.938622,
+          30.36462
+        ]
+      },
+      {
+        "oid": 6560,
+        "name": "ZOOM CAFE",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Гороховая ул., 22",
+        "phone": "+7 (812) 612-13-29",
+        "www": "www.cafezoom.ru",
+        "email": "info@cafezoom.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.931075,
+          30.318365
+        ]
+      },
+      {
+        "oid": 6561,
+        "name": "АБАЖУР",
+        "name_en": null,
+        "address_manual": "199178, Санкт-Петербург, 9-я линия В.О., д. 30",
+        "phone": "+7 (812) 409-0039",
+        "www": "www.abajourcafe.ru",
+        "email": "abagur-cafe@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.927414,
+          30.351585
+        ]
+      },
+      {
+        "oid": 6563,
+        "name": "АЗИЯ",
+        "name_en": null,
+        "address_manual": "191123, Санкт-Петербург, ул. Рылеева, 23",
+        "phone": "+7 (812) 272-01-68",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.942052,
+          30.358143
+        ]
+      },
+      {
+        "oid": 6569,
+        "name": "Антикафе «НЕвзрослые»",
+        "name_en": "Timecafe Nevzroslye",
+        "address_manual": "18 линия Васильевского острова, д.45 во дворе, вход под второй аркой",
+        "phone": "+7 (812) 622-09-67\r\n +7-911-929-52-88\r\n+7-911-944-14-07",
+        "www": "http://nevzroslye.ru/ http://vk.com/nevzroslye",
+        "email": "frish@list.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.940817,
+          30.262257
+        ]
+      },
+      {
+        "oid": 6582,
+        "name": "АТРИУМ",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, наб. реки Мойки, 59",
+        "phone": "+7 (812) 324-99-44; +7 (812) 324-99-11",
+        "www": "www.taleonimperialhotel.com/ru/restaurant/st-petersburg-hotel-atrium-cafe/#/tab-1",
+        "email": "club@taleon.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935403,
+          30.318446
+        ]
+      },
+      {
+        "oid": 6586,
+        "name": "БАРАБАН КАФЕ",
+        "name_en": null,
+        "address_manual": "191028, Санкт-Петербург, ул. Пестеля, 19",
+        "phone": "+7 (812) 272-98-46\r\n +7 (911) 922-24-94",
+        "www": "www.barabancafe.ru",
+        "email": "baraban777@bk.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.942471,
+          30.345773
+        ]
+      },
+      {
+        "oid": 6594,
+        "name": "БРОДЯЧАЯ СОБАКА",
+        "name_en": null,
+        "address_manual": "191011, Санкт-Петербург, Итальянская ул., 4",
+        "phone": "+7 (812) 312-80-47",
+        "www": "www.vsobaka.ru",
+        "email": "straydog@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937071,
+          30.328588
+        ]
+      },
+      {
+        "oid": 6603,
+        "name": "ВЕРСАЛЬ",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, Суворовский пр., 18",
+        "phone": "+7 (812) 740-50-00, +7 (812) 740-38-51",
+        "www": "www.grandhotelemerald.com",
+        "email": "info@grandhotelemerald.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935516,
+          30.371249
+        ]
+      },
+      {
+        "oid": 6609,
+        "name": "ГАМАРДЖОБА",
+        "name_en": null,
+        "address_manual": "191014, Санкт-Петербург, ул. Восстания, 16\r\n190068, Санкт-Петербург, ул. Большая Подьяческая, 17\r\n191002, Санкт-Петербург, ул. Правды, 1А\r\n191119, Санкт-Петербург, ул. Константина Заслонова, 20",
+        "phone": "+7 (911) 142-76-02\r\n+7 (812) 570-73-83\r\n+7 (812) 579-29-49\r\n+7 (812) 572-75-42",
+        "www": "www.vk.com/spb_gamargoba",
+        "email": "info@cafegamarjoba.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.93658,
+          30.359751
+        ]
+      },
+      {
+        "oid": 6615,
+        "name": "ДАТО БАТОНО",
+        "name_en": null,
+        "address_manual": "191002, Санкт-Петербург, ул. Рубинштейна, 30-а",
+        "phone": "+7 (812) 572-25-46",
+        "www": "www.vk.com/batonodato",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928411,
+          30.344354
+        ]
+      },
+      {
+        "oid": 6618,
+        "name": "ДОМ 7",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, наб. канала Грибоедова, 7",
+        "phone": "+7 (812) 314-82-50",
+        "www": "http://vk.com/dom_7",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.938973,
+          30.327393
+        ]
+      },
+      {
+        "oid": 6620,
+        "name": "ДОМАШНЯЯ КУХНЯ",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, пер. Ульяны Громовой, 3",
+        "phone": "+7 (812) 717-98-94",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.933979,
+          30.36152
+        ]
+      },
+      {
+        "oid": 6623,
+        "name": "El Bistro",
+        "name_en": null,
+        "address_manual": "191015, Санкт-Петербург, Шпалерная ул., 51\r\n196240, Санкт-Петербург, Кубинская ул., 80\r\n199034, Санкт-Петербург, 16-17-я линия Васильевского острова,4-6",
+        "phone": "+7 (812) 648-02-92",
+        "www": "elbistro.ru",
+        "email": "elbistro@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.948361,
+          30.384374
+        ]
+      },
+      {
+        "oid": 6624,
+        "name": "ЕМЕЛЯ",
+        "name_en": null,
+        "address_manual": "194358, Санкт-Петербург, пр. Энгельса, дом 154, этаж 3, фудкорт",
+        "phone": null,
+        "www": "www.emelya-cafe.ru",
+        "email": "info@emelya.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          60.059086,
+          30.33502
+        ]
+      },
+      {
+        "oid": 6629,
+        "name": "ЗАВОДНЫЕ ЯЙЦА",
+        "name_en": null,
+        "address_manual": "191123, Санкт-Петербург, Фурштатская ул., 48",
+        "phone": "+7 (812) 275-88-96",
+        "www": "zavodim.spb.ru",
+        "email": "zavodim@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.945229,
+          30.363434
+        ]
+      },
+      {
+        "oid": 6630,
+        "name": "ЗАГАДКА",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, Невский пр., 124",
+        "phone": "+7 (904) 640-81-27",
+        "www": "www.vk.com/zagadkabar",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.930575,
+          30.364943
+        ]
+      },
+      {
+        "oid": 6631,
+        "name": "ЗИНГЕР",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Невский пр., 28",
+        "phone": "+7 (812) 571-82-23",
+        "www": "www.singercafe.ru",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.93562,
+          30.325884
+        ]
+      },
+      {
+        "oid": 6637,
+        "name": "Rock Star cafe",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Большая Морская ул., 8",
+        "phone": "+7 (812) 309-88-83",
+        "www": "http://rockstarcafe.ru/",
+        "email": "rock@rockstarcafe.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.936819,
+          30.318347
+        ]
+      },
+      {
+        "oid": 6646,
+        "name": "КИРОЧНЫЙ ДВОР",
+        "name_en": null,
+        "address_manual": "191123, Санкт-Петербург, Кирочная ул., 36",
+        "phone": "+7 (812) 273-17-54",
+        "www": "http://www.kirochnydvor.ru/",
+        "email": "kirochniy_dvor@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.943945,
+          30.364656
+        ]
+      },
+      {
+        "oid": 6649,
+        "name": "КЛУМБА",
+        "name_en": null,
+        "address_manual": "191024, Санкт-Петербург, Невский пр., 150",
+        "phone": "+7 (812) 717-19-49",
+        "www": "http://www.klumba-cafe.ru/",
+        "email": "https://vk.com/klumba_cafe",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928149,
+          30.372974
+        ]
+      },
+      {
+        "oid": 6652,
+        "name": "КРАСНЫЙ ЛИС",
+        "name_en": null,
+        "address_manual": "191104, Санкт-Петербург, ул. Маяковского, 50",
+        "phone": "+7 (812) 275-42-14",
+        "www": "rfjc.ru",
+        "email": "rfoxrus@list.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.94266,
+          30.355124
+        ]
+      },
+      {
+        "oid": 6656,
+        "name": "ЛАВАШ",
+        "name_en": null,
+        "address_manual": "191025, Санкт-Петербург, ул. Маяковского, 4",
+        "phone": "900-69-95",
+        "www": "http://cafelavash.ru/",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.93273,
+          30.35402
+        ]
+      },
+      {
+        "oid": 6658,
+        "name": "ЛАГИДЗЕ",
+        "name_en": null,
+        "address_manual": "191014, Санкт-Петербург, ул. Белинского, 3",
+        "phone": "+7 (812) 579-11-04",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.937977,
+          30.345243
+        ]
+      },
+      {
+        "oid": 6661,
+        "name": "ЛЕЙКА",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, наб. канала Грибоедова, 29-а",
+        "phone": "+7 (812) 571-96-95",
+        "www": "https://vk.com/cafebarleica",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.932198,
+          30.32442
+        ]
+      },
+      {
+        "oid": 6662,
+        "name": "ЛЕОНАРДО",
+        "name_en": null,
+        "address_manual": "191002, Санкт-Петербург, ул. Рубинштейна, 11",
+        "phone": "+7 (812) 572-26-28",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.929831,
+          30.344228
+        ]
+      },
+      {
+        "oid": 6663,
+        "name": "ЛИГОВСКОЕ",
+        "name_en": null,
+        "address_manual": "191119, Санкт-Петербург, ул. Тюшина, 8",
+        "phone": "+7 (812) 740-21-03",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.916609,
+          30.34969
+        ]
+      },
+      {
+        "oid": 6664,
+        "name": "ЛОЗА",
+        "name_en": null,
+        "address_manual": "191024, Санкт-Петербург, Невский пр., 150, вход с Тележного пер.",
+        "phone": "+7 (812) 717-23-07",
+        "www": "www.lozacafe.ru",
+        "email": "arturloza@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928149,
+          30.372974
+        ]
+      },
+      {
+        "oid": 6673,
+        "name": "ПИЦЦА 22 СМ",
+        "name_en": null,
+        "address_manual": "191014, Санкт-Петербург, ул. Жуковского, 45",
+        "phone": "+7 (812) 945-31-64",
+        "www": "http://pizza22cm.ru/",
+        "email": "ntizam.ru@mail.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935191,
+          30.358367
+        ]
+      },
+      {
+        "oid": 6674,
+        "name": "МЕЗОНИН",
+        "name_en": null,
+        "address_manual": "191023, Санкт-Петербург, Михайловская ул., 1/7, \"Гранд Отель Европа\"",
+        "phone": "+7 (812) 329-60-00",
+        "www": "www.grandhoteleurope.com",
+        "email": "res.ghe@belmond.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.935876,
+          30.330376
+        ]
+      },
+      {
+        "oid": 6677,
+        "name": "МИТТЕ",
+        "name_en": null,
+        "address_manual": "191002, Санкт-Петербург, ул. Рубинштейна, 27",
+        "phone": "+7 (812) 416-1-416",
+        "www": "http://mittespb.ru/",
+        "email": "mitte.spb@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.927234,
+          30.341928
+        ]
+      },
+      {
+        "oid": 6678,
+        "name": "Мой хороший",
+        "name_en": null,
+        "address_manual": "191024, Санкт-Петербург, Перекупной пер., 4",
+        "phone": "+7 (812) 274-88-68",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.927658,
+          30.376199
+        ]
+      },
+      {
+        "oid": 6685,
+        "name": "НА АБОРДАЖ",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, наб. реки Мойки, 40",
+        "phone": "+7 (812) 314-39-63",
+        "www": "http://na-abordazh.ru/",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.936891,
+          30.320773
+        ]
+      },
+      {
+        "oid": 6690,
+        "name": "Пианобар \"Нико\"",
+        "name_en": null,
+        "address_manual": "191040, Санкт-Петербург, Коломенская ул., 9",
+        "phone": "+7 (931) 279-00-50",
+        "www": "https://vk.com/pianobarniko",
+        "email": "npianobar@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.925254,
+          30.354325
+        ]
+      },
+      {
+        "oid": 6694,
+        "name": "ОБЕД",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Итальянская ул., 15, Центральный атриум, 5-й уровень",
+        "phone": "+7 (812) 449-94-56",
+        "www": "http://grandp.ru/index.php?rst=2",
+        "email": "secretary@grandp.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934722,
+          30.333071
+        ]
+      },
+      {
+        "oid": 6698,
+        "name": "ОМАР ХАЙАМ",
+        "name_en": null,
+        "address_manual": "191025, Санкт-Петербург, Колокольная ул., 9",
+        "phone": "+7 (812) 99-77-900",
+        "www": "https://vk.com/kalyanclubomarhayam",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928262,
+          30.351486
+        ]
+      },
+      {
+        "oid": 6699,
+        "name": "ОМЛЕТ",
+        "name_en": null,
+        "address_manual": "191023, Санкт-Петербург, Апраксин пер., 6",
+        "phone": "8 (921) 560-78-78",
+        "www": "http://cafeomlet.ru/",
+        "email": "info@cafeomlet.ru",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.928789,
+          30.325588
+        ]
+      },
+      {
+        "oid": 6700,
+        "name": "ОТДЫХ",
+        "name_en": null,
+        "address_manual": "191119, Санкт-Петербург, ул. Марата, 65/20",
+        "phone": "+ 7 (812) 572-73-50",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.921565,
+          30.344875
+        ]
+      },
+      {
+        "oid": 6701,
+        "name": "ПАРМА СУШИ",
+        "name_en": null,
+        "address_manual": "197022, Санкт-Петербург, ул. Академика Павлова, 5",
+        "phone": "+7 (812) 922-82-81",
+        "www": "http://xn--80aayonhjq9b.xn--p1ai/",
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934344,
+          30.335927
+        ]
+      },
+      {
+        "oid": 6703,
+        "name": "ПЕКАРНЯ МИШЕЛЯ",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, Лиговский пр., 30-а, ТРЦ \"Галерея\"",
+        "phone": "+7 (812) 677-71-10",
+        "www": "https://vk.com/michellebakery",
+        "email": "pekarnyamichel@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.927256,
+          30.360712
+        ]
+      },
+      {
+        "oid": 6705,
+        "name": "ПЕЛЬМЕННАЯ",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, Невский пр., 85, Московский вокзал",
+        "phone": "+7 (812) 335-83-29",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.929781,
+          30.362203
+        ]
+      },
+      {
+        "oid": 6707,
+        "name": "ПЕЧКА",
+        "name_en": null,
+        "address_manual": "191036, Санкт-Петербург, ул. Жуковского, 57",
+        "phone": "+7 (812) 273-10-10",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.934984,
+          30.361772
+        ]
+      },
+      {
+        "oid": 6708,
+        "name": "БИСТРО",
+        "name_en": null,
+        "address_manual": "191186, Санкт-Петербург, Невский пр., 3",
+        "phone": "+7 (812) 571-82-86",
+        "www": null,
+        "email": null,
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.93644,
+          30.312481
+        ]
+      },
+      {
+        "oid": 6710,
+        "name": "ПИР О.Г.И",
+        "name_en": null,
+        "address_manual": "191123, Санкт-Петербург, ул. Восстания, 55",
+        "phone": "+7 (812) 275-35-58",
+        "www": "https://vk.com/pirogipetersburg",
+        "email": "fenichev@gmail.com",
+        "kitchen": null,
+        "for_disabled": "нет",
+        "coord": [
+          59.943219,
+          30.361161
+        ]
+      }
+    ]
+  }

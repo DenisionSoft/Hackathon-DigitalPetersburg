@@ -1,0 +1,515 @@
+{
+    "count": 51,
+    "data": [
+      {
+        "doo_short": "ГБДОУ №109",
+        "building_id": "oo5d6be2db-97e9-471e-a5d7-48c9d010da53-building",
+        "sum": 4,
+        "coordinates": [
+          59.900921,
+          30.311491
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №105",
+        "building_id": "2239",
+        "sum": 2,
+        "coordinates": [
+          59.903168,
+          30.273427
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №104",
+        "building_id": "2489",
+        "sum": 1,
+        "coordinates": [
+          59.905456,
+          30.314161
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №145",
+        "building_id": "2244",
+        "sum": 7,
+        "coordinates": [
+          59.907367,
+          30.313024
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №145",
+        "building_id": "460",
+        "sum": 2,
+        "coordinates": [
+          59.909465,
+          30.310956
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №154",
+        "building_id": "475",
+        "sum": 11,
+        "coordinates": [
+          59.91007,
+          30.321874
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №20",
+        "building_id": "536",
+        "sum": 2,
+        "coordinates": [
+          59.910954,
+          30.282147
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №159",
+        "building_id": "477",
+        "sum": 14,
+        "coordinates": [
+          59.911646,
+          30.324964
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №4",
+        "building_id": "784",
+        "sum": 10,
+        "coordinates": [
+          59.911679,
+          30.270942
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №109",
+        "building_id": "325",
+        "sum": 2,
+        "coordinates": [
+          59.912498,
+          30.30289
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №131",
+        "building_id": "oo938d7f3f-5bc7-4cbb-bb35-d9f3430e1dca-building",
+        "sum": 6,
+        "coordinates": [
+          59.912585,
+          30.323462
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №116",
+        "building_id": "368",
+        "sum": 8,
+        "coordinates": [
+          59.912762,
+          30.297115
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №101",
+        "building_id": "299",
+        "sum": 16,
+        "coordinates": [
+          59.912937,
+          30.326135
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №130",
+        "building_id": "425",
+        "sum": 6,
+        "coordinates": [
+          59.913572,
+          30.304141
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №151",
+        "building_id": "2243",
+        "sum": 1,
+        "coordinates": [
+          59.91369,
+          30.310349
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБОУ прогимназия №624",
+        "building_id": "1284",
+        "sum": 14,
+        "coordinates": [
+          59.913861,
+          30.300575
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №112",
+        "building_id": "349",
+        "sum": 14,
+        "coordinates": [
+          59.913935,
+          30.314443
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №115",
+        "building_id": "363",
+        "sum": 16,
+        "coordinates": [
+          59.914105,
+          30.302882
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №133",
+        "building_id": "430",
+        "sum": 13,
+        "coordinates": [
+          59.914614,
+          30.30229
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №127",
+        "building_id": "2242",
+        "sum": 30,
+        "coordinates": [
+          59.914634,
+          30.311522
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №115",
+        "building_id": "2232",
+        "sum": 25,
+        "coordinates": [
+          59.914673,
+          30.308961
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №112",
+        "building_id": "2237",
+        "sum": 2,
+        "coordinates": [
+          59.915805,
+          30.313401
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №131",
+        "building_id": "426",
+        "sum": 30,
+        "coordinates": [
+          59.91628,
+          30.314756
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №104",
+        "building_id": "309",
+        "sum": 50,
+        "coordinates": [
+          59.917335,
+          30.306474
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №123",
+        "building_id": "401",
+        "sum": 9,
+        "coordinates": [
+          59.917872,
+          30.307048
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №41",
+        "building_id": "2445",
+        "sum": 32,
+        "coordinates": [
+          59.918022,
+          30.294797
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №41",
+        "building_id": "800",
+        "sum": 10,
+        "coordinates": [
+          59.918812,
+          30.296922
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №50",
+        "building_id": "892",
+        "sum": 24,
+        "coordinates": [
+          59.919097,
+          30.298342
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №1",
+        "building_id": "273",
+        "sum": 10,
+        "coordinates": [
+          59.919937,
+          30.291996
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №44",
+        "building_id": "835",
+        "sum": 16,
+        "coordinates": [
+          59.920664,
+          30.296338
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №27",
+        "building_id": "623",
+        "sum": 7,
+        "coordinates": [
+          59.920668,
+          30.310843
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №11",
+        "building_id": "333",
+        "sum": 10,
+        "coordinates": [
+          59.921263,
+          30.303922
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №30",
+        "building_id": "667",
+        "sum": 19,
+        "coordinates": [
+          59.921378,
+          30.279701
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №32",
+        "building_id": "2238",
+        "sum": 3,
+        "coordinates": [
+          59.92412,
+          30.311167
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБОУ СОШ №241",
+        "building_id": "1300",
+        "sum": 12,
+        "coordinates": [
+          59.924138,
+          30.309386
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №39",
+        "building_id": "761",
+        "sum": 4,
+        "coordinates": [
+          59.92419,
+          30.298333
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №135",
+        "building_id": "2233",
+        "sum": 20,
+        "coordinates": [
+          59.924204,
+          30.33005
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №135",
+        "building_id": "434",
+        "sum": 10,
+        "coordinates": [
+          59.924204,
+          30.33005
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №6",
+        "building_id": "966",
+        "sum": 23,
+        "coordinates": [
+          59.924236,
+          30.293704
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №60",
+        "building_id": "978",
+        "sum": 8,
+        "coordinates": [
+          59.924663,
+          30.288928
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №12",
+        "building_id": "384",
+        "sum": 1,
+        "coordinates": [
+          59.92566,
+          30.30639
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №39",
+        "building_id": "2236",
+        "sum": 13,
+        "coordinates": [
+          59.926198,
+          30.292752
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №53",
+        "building_id": "916",
+        "sum": 9,
+        "coordinates": [
+          59.926502,
+          30.285983
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №53",
+        "building_id": "2219",
+        "sum": 5,
+        "coordinates": [
+          59.927062,
+          30.283161
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №5",
+        "building_id": "878",
+        "sum": 11,
+        "coordinates": [
+          59.927846,
+          30.309884
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №38",
+        "building_id": "2245",
+        "sum": 5,
+        "coordinates": [
+          59.928081,
+          30.30245
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №38",
+        "building_id": "750",
+        "sum": 6,
+        "coordinates": [
+          59.929853,
+          30.299876
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №53",
+        "building_id": "2218",
+        "sum": 1,
+        "coordinates": [
+          59.93104241,
+          30.289913282
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №15",
+        "building_id": "471",
+        "sum": 9,
+        "coordinates": [
+          59.931184,
+          30.298338
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №8",
+        "building_id": "1137",
+        "sum": 50,
+        "coordinates": [
+          59.931644,
+          30.299971
+        ],
+        "doo_status": "Функционирует"
+      },
+      {
+        "doo_short": "ГБДОУ №8",
+        "building_id": "2240",
+        "sum": 28,
+        "coordinates": [
+          59.933943,
+          30.299249
+        ],
+        "doo_status": "Функционирует"
+      }
+    ]
+  }

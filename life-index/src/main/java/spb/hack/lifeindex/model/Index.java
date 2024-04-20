@@ -10,4 +10,5 @@ public class Index {
     private House house;
     private Long value;
     // WORK IN PROGRESS!!!
+    // list (?) of subindexes
 }

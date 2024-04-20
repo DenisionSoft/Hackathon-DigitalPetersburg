@@ -1,4 +1,4 @@
-package spb.hack.lifeindex.service;
+package spb.hack.lifeindex.client;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

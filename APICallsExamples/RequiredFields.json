@@ -1,0 +1,191 @@
+// beautiful places
+{
+    "count": int,
+    "data": [
+        {
+            "place": {
+                "coordinates": [float,float],
+                "categories": [string],
+                "location": {
+                    "distance": float
+                }
+            }
+        }//...
+    ]
+}
+// clinics
+{
+    "count": int,
+    "results": [
+        {
+            "coordinates": [float, float],
+            "district": string
+        }//...
+    ]
+}
+
+// Kindergartens
+{
+    "count": int,
+    "data": [
+        {
+            "coordinates": [float, float],
+            "sum": int
+        }//...
+    ]
+}
+
+// KudaGO
+{
+    "count": int,
+    "data": [
+        {
+            "dates": [
+                {
+                    "start": int,
+                    "end": int
+                }// может быть много
+            ],
+            "place": {
+                "coords": [float, float]
+            },
+            "categories": [string]// может быть много
+        }//...
+    ]
+}
+
+// Libraries
+{
+    "AllCount": int,
+}
+
+// Минестерство культуры (кино)
+{
+    "count": int,
+    "data": [
+    {
+        "address_coordinates": {float, float}
+    }//...
+    ]
+}
+
+// Музеи
+{
+    "count": int,
+    "data": [
+    {
+        "coord": [float, float]
+    }//...
+    ]
+}
+
+// Pet clinics
+{
+    "count": int,
+    "data": [
+        "place":
+        {
+            "coordinates": [float, float],
+            "location": {
+                "distance": float
+            }
+        }
+    ]
+}
+
+// Pet parks
+{
+    "count": int,
+    "data": [
+        "place": {
+            "coordinates": [float, float],
+            "location": {
+                "distance": float
+            }
+        }
+    ]
+}
+
+// Recycling
+{
+    "results": [
+        {
+            "category": string,
+            "count": int,
+            "objects": [
+                {
+                    "geometry": {
+                        "coordinates": [float, float]
+                    },
+                    "properties": {
+                        "content_text": string
+                    }
+                }
+            ]
+        },
+        {
+            "category": string,
+            "count": int,
+            "objects": [
+                {
+                    "geometry": {
+                        "coordinates": [float, float]
+                    },
+                    "properties": {
+                        "content_text": string
+                    }
+                }
+            ]
+        }//...
+    ]
+}
+
+// Restaurant
+{
+    "count": int,
+    "results": [
+        {
+            "coord":[float, float]
+        }//...
+    ]
+}
+
+// Schools
+[
+    {
+        "district": string,
+        "address": string
+    }//...
+]
+
+// Sportgrounds
+{
+    "count": int,
+    "data": [
+    {
+        "place": {
+            "categories": string,
+            "location": {
+                "distance": float
+            }
+        }
+    }//...
+    ]
+}
+
+//Theatres
+{
+    "count": int,
+    "results": [
+        "coord": [float, float]
+    ]
+}
+
+// Transport
+{
+    "result": [
+        {
+            "routeId": string
+        }//...
+    ]
+}

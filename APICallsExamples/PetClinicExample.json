@@ -1,0 +1,54 @@
+{
+    "count": 1,
+    "data": [
+      {
+        "place": {
+          "id": 16,
+          "type": "Ветклиника",
+          "territory": "Город",
+          "title": "Межрайонная ветеринарная станция Петроградского района",
+          "description": null,
+          "list_service": [
+            "Прием и осмотр животных",
+            "Акушерство и гинекология",
+            "Вакцинация (госуслуга)",
+            "Вакцинация (платная)",
+            "Выдача ВСД на животных",
+            "Клинико-диагностическая лаборатория",
+            "Ортопедия",
+            "Прием и осмотр животных",
+            "Стерилизация / кастрация",
+            "Стоматология",
+            "Терапия",
+            "УЗИ",
+            "Физиотерапия",
+            "Хирургия",
+            "Чипирование",
+            "Эвтаназия"
+          ],
+          "address": "г. Санкт-Петербург, Вяземский пер., д. 4",
+          "coordinates": [
+            59.972406,
+            30.301019
+          ],
+          "operating_mode": "Ежедневно с 9:00 до 21:00",
+          "around_the_clock": false,
+          "phone": [
+            null
+          ],
+          "add_phone": "2801",
+          "website": "http://www.spbvet.ru/structure/station/rayony/petrogradskiy/vyazemskiy",
+          "sanitary_days": [],
+          "note": null,
+          "leave_review": "http://www.spbvet.ru/reviews/new/?kl=447",
+          "photo": "https://storage.yandexcloud.net/ilh/Pets/clinics/017.jpg",
+          "location": {
+            "latitude": 59.962758,
+            "longitude": 30.310996,
+            "radius": 2,
+            "distance": 1.2
+          }
+        }
+      }
+    ]
+  }

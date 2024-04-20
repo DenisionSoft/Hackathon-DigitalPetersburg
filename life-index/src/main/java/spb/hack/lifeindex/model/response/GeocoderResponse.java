@@ -1,4 +1,4 @@
-package spb.hack.lifeindex.model.Dto;
+package spb.hack.lifeindex.model.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

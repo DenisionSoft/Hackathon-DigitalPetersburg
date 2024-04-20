@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 @Data
 @RequiredArgsConstructor
 public class District {
-
     private String name;
     private Long id;
 }

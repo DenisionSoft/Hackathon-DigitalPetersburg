@@ -1,0 +1,85 @@
+{
+    "doo_short": "ГБДОУ №154",
+    "coordinates": [
+      59.91007,
+      30.321874
+    ],
+    "doo_status": "Функционирует",
+    "doo_full": "Государственное бюджетное дошкольное образовательное учреждение детский сад №154 общеразвивающего вида с приоритетным осуществлением деятельности по физическому развитию детей Адмиралтейского района Санкт-Петербурга",
+    "address": "190013, Санкт-Петербург (г.), Санкт-Петербург г, Обводного Канала наб, д.125 литА,Б",
+    "district": "Адмиралтейский район",
+    "legal_form": "Государственная",
+    "head_name": null,
+    "head_position": null,
+    "phone": "8-812-316-65-92",
+    "email": "dou154adm@petersburgedu.ru",
+    "link": "http://ds154.admiral.gov.spb.ru/",
+    "group": {
+      "Старшая группа 1": {
+        "available_spots": 0,
+        "age_min": 5,
+        "age_max": 6,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      },
+      "Младше-Средняя группа 1": {
+        "available_spots": 0,
+        "age_min": 3,
+        "age_max": 5,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      },
+      "Подготовительная группа 1": {
+        "available_spots": 0,
+        "age_min": 6,
+        "age_max": 7,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      },
+      "Группа раннего возраста 1": {
+        "available_spots": 0,
+        "age_min": 1,
+        "age_max": 3,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      },
+      "Средняя группа 1": {
+        "available_spots": 0,
+        "age_min": 4,
+        "age_max": 5,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      },
+      "Младшая группа 2": {
+        "available_spots": 11,
+        "age_min": 3,
+        "age_max": 4,
+        "group_shift": "Полного дня (10,5-12-часового пребывания)",
+        "edu_program": [
+          "Основная"
+        ],
+        "disabled_type": null,
+        "recovery_type": null
+      }
+    }
+  }

@@ -306,7 +306,11 @@ public class SchoolTerm extends Term {
 
     @Override
     public double calculate() {
-       return 1;
+        double result = 0;
+        for(double distance : distances) {
+            result += Utils.distFunction(distance);
+        }
+        return result / distances.size();
     }
 
     Vector<double> distances;

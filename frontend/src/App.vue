@@ -12,7 +12,10 @@
       <LoadingComp/>
   </div>
   <div v-else-if="page === 4">
-      <ResultComp :index="index" :adress="adress" :parameters="params"/>
+      <ResultComp :index="index" :adress="adress" :parameters="params" @page="page = $event"/>
+  </div>
+  <div v-else-if="page === 5">
+      <MultipleResultComp :multipleIndex="multipleIndex" :multipleAdress="multipleAdress" :parameters="params" @page="page = $event"/>
   </div>
 </template>
 
@@ -22,6 +25,7 @@ import MultipleInputComp from './components/MultipleInputComp.vue'
 import InputComp from './components/InputComp.vue'
 import ResultComp from './components/ResultComp.vue'
 import LoadingComp from './components/LoadingComp.vue'
+import MultipleResultComp from './components/MultipleResultComp.vue'
 import axios from 'axios'
 export default {
   name: 'App',
@@ -34,6 +38,7 @@ export default {
       page: 0,
       error: false,
       index: 0,
+      multipleIndex: [],
     }
   },
   methods: {
@@ -51,6 +56,7 @@ export default {
       })
       .then((response) => {
         this.index = response.data[0].value
+        this.adress = response.data[0].house.address
       })
       .catch((error) => {
         console.log(error)
@@ -73,13 +79,16 @@ export default {
         }
       })
       .then((response) => {
-        this.index = response.data[0].value
+        for(var i = 0; i < response.data.length; i++){
+           this.multipleIndex[i] = response.data[i].value
+           this.multipleAdress[i] = response.data[i].house.address 
+        }
       })
       .catch((error) => {
         console.log(error)
       })
       .finally(() => {
-        this.page = 4
+        this.page = 5
       })
     },
 },
@@ -88,7 +97,8 @@ export default {
     MultipleInputComp,
     InputComp,
     LoadingComp,
-    ResultComp
+    ResultComp,
+    MultipleResultComp
   }
 }
 </script>

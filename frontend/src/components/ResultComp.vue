@@ -11,8 +11,8 @@
                 <div id="index" :style="{color: color}">{{index}}</div>
             </div>
             <div id="parameters">
-                <div v-for="(parameter, index) in parameters" :key="index">
-                    <div  id="parameter" v-if="parameter">{{setParams(index)}}</div>
+                <div v-for="(parameter, key) in parameters" :key="key">
+                    <div  id="parameter" v-if="parameter">{{setParams(key)}}</div>
                 </div>
             </div>
         </div>

@@ -41,10 +41,13 @@ export default {
       this.radius = radius
       this.params = params
       this.page = 3
+      var json = JSON.stringify({"addresses": ["Невский, 6"]})
       axios
-      .get('https://localhost:8080/api/ping')
-      //.post('http://159.223.205.17:8080/api/index', {amount: 1, radius: radius, adress: adress, params: params})
-      //.post('http://159.223.205.17:8080/api/index', {amount: 1, radius: radius, adress: adress, params: params})
+      .post('//localhost:8080/api/debug/geocoder', json, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
       .then((response) => {
         console.log(response.data)
       })

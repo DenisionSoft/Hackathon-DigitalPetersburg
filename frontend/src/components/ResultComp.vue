@@ -11,8 +11,8 @@
                 <div id="index" :style="{color: color}">{{index}}</div>
             </div>
             <div id="parameters">
-                <div id="parameter" v-for="(parameter, index) in parameters" :key="index">
-                    <div v-if="parameter">{{setParams(index)}}</div>
+                <div v-for="(parameter, index) in parameters" :key="index">
+                    <div  id="parameter" v-if="parameter">{{setParams(index)}}</div>
                 </div>
             </div>
         </div>
@@ -113,5 +113,16 @@ export default {
 }
 #pic{
     min-width: 495px;
+}
+#parameters{
+    margin-left: 116px;
+    margin-top: 64px;
+    height:max-content;
+    display: flex;
+}
+#parameter{
+    flex: 1;
+    margin-inline: 65px;
+    font-size: 26px;
 }
 </style>

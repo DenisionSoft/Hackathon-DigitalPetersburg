@@ -6,7 +6,7 @@
       <InputComp @inputValues="handleChange" @page="page = $event"/>
   </div>
   <div v-else-if="page === 2">
-      <MultipleInputComp/>
+      <MultipleInputComp @multipleInputValues="handleMultipleChange" @page="page = $event"/>
   </div>
   <div v-else-if="page === 3">
       <LoadingComp/>
@@ -28,6 +28,7 @@ export default {
   data(){
     return{
       adress: '',
+      multipleAdress: [],
       radius: '',
       params: {},
       page: 0,
@@ -41,15 +42,15 @@ export default {
       this.radius = radius
       this.params = params
       this.page = 3
-      var json = JSON.stringify({"addresses": ["Невский, 6"]})
+      var json = JSON.stringify({"amount": 1, "radius": this.radius, "addresses": [this.adress]})
       axios
-      .post('//localhost:8080/api/debug/geocoder', json, {
+      .post('//localhost:8080/api/debug/index', json, {
         headers: {
           'Content-Type': 'application/json'
         }
       })
       .then((response) => {
-        console.log(response.data)
+        this.index = response.data.index
       })
       .catch((error) => {
         console.log(error)
@@ -57,8 +58,31 @@ export default {
       .finally(() => {
         this.page = 4
       })
-    }
-  },
+    },
+    handleMultipleChange({adress1, adress2, adress3, radius, params}){
+      if(adress1 != "") this.multipleAdress.push(adress1);
+      if(adress2 != "") this.multipleAdress.push(adress2);
+      if(adress3 != "") this.multipleAdress.push(adress3);
+      this.radius = radius
+      this.params = params
+      var json = JSON.stringify({"amount": this.multipleAdress.length, "radius": this.radius, "addresses": this.multipleAdress})
+      axios
+      .post('//localhost:8080/api/debug/index', json, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then((response) => {
+        this.index = response.data.index
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+      .finally(() => {
+        this.page = 4
+      })
+    },
+},
   components: {
     MainPageComp,
     MultipleInputComp,

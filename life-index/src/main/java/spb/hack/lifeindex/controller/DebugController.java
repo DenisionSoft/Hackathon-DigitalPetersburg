@@ -55,9 +55,9 @@ public class DebugController {
         requestParamsDto.setRadius(frontendRequestDto.radius);
         requestParamsDto.setPage(1);
 
-        ClinicDto clinicDto = clinicService.getAllData(requestParamsDto);
-        System.out.println("Sending:" + clinicDto);
-        return ResponseEntity.ok(clinicDto);
+        //ClinicDto clinicDto = clinicService.getAllData(requestParamsDto);
+        System.out.println("Sending:" + null);
+        return ResponseEntity.ok(null);
     }
 
     @PostMapping("/index")

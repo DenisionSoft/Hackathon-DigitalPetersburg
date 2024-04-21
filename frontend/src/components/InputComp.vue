@@ -53,9 +53,9 @@ export default {
       adressValue: '', 
       radiusValue: '',
       paramsValues: {'educationValue' : false, 
-                    'heatlthValue' : false, 
+                    'healthValue' : false, 
                     'museumValue' : false, 
-                    'restoranValue' : false, },
+                    'restoranValue' : false },
     }
   },
   methods: {

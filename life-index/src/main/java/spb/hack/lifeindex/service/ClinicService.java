@@ -12,11 +12,9 @@ import java.util.concurrent.Callable;
 
 @Service
 @RequiredArgsConstructor
-@Async
 public class ClinicService {
 
     private final ClinicClient clinicClient;
-    private final GlebService glebService;
 
     public ResponseDataDto getAllData(RequestParamsDto requestParamsDto) {
         ClinicDto clinicDto = clinicClient.getDto(requestParamsDto);

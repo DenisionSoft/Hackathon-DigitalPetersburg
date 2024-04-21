@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 @Service
 @AllArgsConstructor
-public class RestaurantClient implements ApiClient {
+public class MuseumClient implements ApiClient {
 
     private final ProxyClient proxyClient;
     private static final String BASE_URL = "https://spb-classif.gate.petersburg.ru/api/v2/datasets/139/versions/latest/data/569/";
@@ -31,7 +31,7 @@ public class RestaurantClient implements ApiClient {
         String paramPerPage = "&per_page=100";
         String url = BASE_URL + endpoint + paramPage + paramPerPage;
         // запрос к прокси клиенту
-        ResturantResponse museumResponse = proxyClient.get(url, RestaurantResponse.class);
+        MuseumResponse museumResponse = proxyClient.get(url, MuseumResponse.class);
         // обработка респонса в дто
         Integer count = museumResponse.getResults().size();
         ArrayList<Pair<GeoPoint, District>> results = new ArrayList<>();

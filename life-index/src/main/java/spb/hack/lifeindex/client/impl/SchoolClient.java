@@ -11,9 +11,10 @@ import spb.hack.lifeindex.model.House;
 import spb.hack.lifeindex.model.dto.RequestParamsDto;
 import spb.hack.lifeindex.model.dto.impl.SchoolDto;
 import spb.hack.lifeindex.model.dto.impl.GeocoderDto;
+import spb.hack.lifeindex.model.dto.support.SchoolResults;
 import spb.hack.lifeindex.model.response.SchoolResponse;
-import spb.hack.lifeindex.model.response.ShoolResponse;
 import spb.hack.lifeindex.model.response.GeocoderResponse;
+import spb.hack.lifeindex.service.GeocoderService;
 
 import java.util.ArrayList;
 
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 public class SchoolClient implements ApiClient {
 
     private final ProxyClient proxyClient;
+    private final GeocoderService geocoderService;
     private static final String BASE_URL = "https://obr.gate.petersburg.ru";
 
     @Override
@@ -32,12 +34,20 @@ public class SchoolClient implements ApiClient {
         String url = BASE_URL + endpoint + districtId;
         // запрос к прокси клиенту
         SchoolResponse schoolResponse = proxyClient.get(url, SchoolResponse.class);
+        // get coords
+        ArrayList<GeocoderDto> geoData = new ArrayList<>();
+        for (SchoolResults result : schoolResponse.getResults()) {
+            RequestParamsDto requestParamsDto1 = new RequestParamsDto();
+            requestParamsDto1.setAddress(result.address);
+            geoData.add(geocoderService.getAllData(requestParamsDto1));
+        }
         // обработка респонса в дто
-        Integer count = schoolResponse.getResults().size();
         ArrayList<Pair<GeoPoint, District>> results = new ArrayList<>();
-        schoolResponse.getResults().forEach(result -> {
-            results.add(new Pair<>(new GeoPoint(result.getCoordinates().get(0), result.getCoordinates().get(1)), new District(result.getDistrict())));
-        });
+        Integer count = schoolResponse.getResults().size();
+        for (GeocoderDto geocoderDto : geoData) {
+            results.add(new Pair<>(geocoderDto.getGeoPoint(), geocoderDto.getDistrict()));
+        }
+
         SchoolDto schoolDto = new SchoolDto();
         schoolDto.setCount(count);
         schoolDto.setResults(results);

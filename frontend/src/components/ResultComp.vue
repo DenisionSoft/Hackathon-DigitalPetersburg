@@ -8,7 +8,7 @@
             <div id="result_field">
                 <div id="result_text">Оценка района для дома</div> 
                 <div id="address">по адресу {{adress}}</div> 
-                <div id="index" :style="{color: color}">{{index}}</div>
+                <div id="index" :style="{color: color}">{{Math.round(index)}}</div>
             </div>
             <div id="parameters">
                 <div v-for="(parameter, key) in parameters" :key="key">

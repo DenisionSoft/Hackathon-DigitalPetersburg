@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
+import spb.hack.lifeindex.model.Parameters;
 
 import java.util.ArrayList;
 
@@ -14,6 +15,5 @@ public class FrontendRequestDto {
     public Integer amount;
     public Integer radius;
     public ArrayList<String> addresses;
-    
-    // parameters, perhaps model for it or simply number + bool values like maps or smth
+    public Parameters parameters;
 }

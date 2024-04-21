@@ -10,9 +10,9 @@ import java.util.ArrayList;
 
 @Data
 @RequiredArgsConstructor
-@AllArgsConstructor
-@NoArgsConstructor
 public class MuseumResults {
-    @JsonProperty("coordinates")
+    @JsonProperty("coord")
     public ArrayList<Double> coordinates;
+    @JsonProperty("district")
+    public String district;
 }

@@ -10,7 +10,7 @@ public class Index {
     private Long id;
     private House house;
     private Double value;
-    ArrayList<Double> subIndexes;
+    public ArrayList<Double> subIndexes;
 
     public Index(Long id, House house, Double value, ArrayList<Double> subIndexes) {
         this.id = id;
@@ -18,6 +18,4 @@ public class Index {
         this.value = value;
         this.subIndexes = subIndexes;
     }
-    // WORK IN PROGRESS!!!
-    // list (?) of subindexes
 }

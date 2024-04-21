@@ -67,9 +67,9 @@ data(){
     adress3Value: '', 
     radiusValue: '',
     paramsValues: {'educationValue' : false, 
-                    'heatlthValue' : false, 
+                    'healthValue' : false, 
                     'museumValue' : false, 
-                    'restoranValue' : false, },
+                    'restoranValue' : false },
     }
 },
 methods: {

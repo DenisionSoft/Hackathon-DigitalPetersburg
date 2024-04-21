@@ -20,4 +20,5 @@ public class ResponseDataDto {
     private Double distance;
     private Integer intData;
     private String stringData;
+    private ArrayList<String> arrayStringData;
 }

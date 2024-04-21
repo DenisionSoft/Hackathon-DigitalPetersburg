@@ -13,6 +13,5 @@ import java.util.ArrayList;
 @AllArgsConstructor
 public class SchoolResponse {
 
-    @JsonProperty("results")
     private ArrayList<SchoolResults> results;
 }

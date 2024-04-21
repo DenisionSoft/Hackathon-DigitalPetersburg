@@ -11,8 +11,8 @@ import java.util.ArrayList;
 @Data
 @RequiredArgsConstructor
 public class SchoolResults {
-    @JsonProperty("coordinates")
-    public ArrayList<Double> coordinates;
+    @JsonProperty("address")
+    public String address;
 
     @JsonProperty("district")
     public String district;

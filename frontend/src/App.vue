@@ -1,6 +1,6 @@
 <template>
   <div v-if="page === 0">
-      <MainPageComp @page="page = $event"/>
+      <MainPageComp @inputValues="handleChange" @page="page = $event"/>
   </div>
   <div v-else-if="page === 1">
       <InputComp @inputValues="handleChange" @page="page = $event"/>

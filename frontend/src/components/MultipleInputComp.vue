@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <div id="head">
-      <div id="logo">
+      <div id="logo" @click="$emit('page', 0)">
         <img id="logo_img" src="@/assets/bar_black.png">
         <div id="logo_text">Хочу здесь жить</div>
       </div>
@@ -26,7 +26,7 @@
           <input id="adress_input" placeholder="Введите адрес..." name="adress_name" form="inputForm" v-model="adress3Value">
         </div>
         <div id="form_bottom">
-          <input id="radius_input" type="number" placeholder="Радиус оценки, км" name="radius_name" form="inputForm" v-model="radiusValue">
+          <input id="radius_input" type="number" min = "1" placeholder="Радиус оценки, км" name="radius_name" form="inputForm" v-model="radiusValue">
           <input id="adress_btn" type="submit" value="Оценить" form="inputForm" >
         </div>
       </div>
@@ -35,28 +35,20 @@
           <div id="params_text">Важно учесть: </div>
         </div>
         <div id="param">
-          <input id="metro_input" type="checkbox" form="inputForm" v-model="paramsValues.metroValue">
-          <div id="params_text">Метро</div>
-        </div>
-        <div id="param">
           <input id="education_input" type="checkbox" form="inputForm" v-model="paramsValues.educationValue">
           <div id="params_text">Образование</div>
         </div>
         <div id="param">
-          <input id="sport_input" type="checkbox" form="inputForm" v-model="paramsValues.sportValue">
-          <div id="params_text">Спортивная доступность</div>
+          <input id="health_input" type="checkbox" form="inputForm" v-model="paramsValues.healthValue">
+          <div id="params_text">Здравоохранение</div>
         </div>
         <div id="param">
-          <input id="dosug_input" type="checkbox" form="inputForm" v-model="paramsValues.dosugValue">
-          <div id="params_text">Досуг</div>
+          <input id="museum_input" type="checkbox" form="inputForm" v-model="paramsValues.museumValue">
+          <div id="params_text">Музеи</div>
         </div>
         <div id="param">
-          <input id="pets_input" type="checkbox" form="inputForm" v-model="paramsValues.petsValue">
-          <div id="params_text">Для питомцев</div>
-        </div>
-        <div id="param">
-          <input id="kudago_input" type="checkbox" form="inputForm" v-model="paramsValues.kudagoValue">
-          <div id="params_text">Активности KudaGo</div>
+          <input id="restoran_input" type="checkbox" form="inputForm" v-model="paramsValues.restoranValue">
+          <div id="params_text">Рестораны</div>
         </div>
       </div>
     </form>
@@ -74,13 +66,11 @@ data(){
     adress2Value: '',
     adress3Value: '', 
     radiusValue: '',
-    paramsValues: {'metroValue' : false, 
-                  'educationValue' : false, 
-                  'sportValue' : false, 
-                  'dosugValue' : false, 
-                  'petsValue' : false, 
-                  'kudagoValue' : false},
-  }
+    paramsValues: {'educationValue' : false, 
+                    'heatlthValue' : false, 
+                    'museumValue' : false, 
+                    'restoranValue' : false, },
+    }
 },
 methods: {
   submitForm() {

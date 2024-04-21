@@ -28,12 +28,10 @@ export default {
         return {
             color: this.calcColor(this.index),
             params_names: {
-                'metroValue' : 'Метро', 
                 'educationValue' : 'Образование', 
-                'sportValue' : 'Спортивная доступность', 
-                'dosugValue' : 'Досуг', 
-                'petsValue' : 'Для питомцев', 
-                'kudagoValue' : 'Активности KudaGo'
+                'healthValue' : 'Здравоохранение', 
+                'museumValue' : 'Музеи', 
+                'restoranValue' : 'Рестораны', 
             },
         }
     },
@@ -81,6 +79,9 @@ export default {
   display: flex;
   justify-content: left;
 }
+#logo:hover{
+    cursor: pointer;
+}
 #logo_img{
   width: 27px;
   height: 36px;
@@ -111,6 +112,7 @@ font-weight: bold;
     margin-inline: 200px;
 }
 #result_text{
+    text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
@@ -126,6 +128,7 @@ font-weight: bold;
     min-width: 495px;
 }
 #parameters{
+    width: 700px;
     margin-left: 116px;
     margin-top: 64px;
     height:max-content;

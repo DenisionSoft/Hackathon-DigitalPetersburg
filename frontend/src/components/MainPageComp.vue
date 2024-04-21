@@ -46,6 +46,46 @@
             </div>
         </div>
     </div>
+    <div id="exampleField">
+        <a name="exampleField"></a>
+        <div id="example_label">Попробуйте примеры</div>
+        <div id="example_columns">
+            <div id="example_metro">
+                <div id="example_heading">Метро</div>
+                <div id="metro_btns">
+                    <div id="metro_petr">
+                        <img id="metro_blue" src="@/assets/metro_blue.png" alt="">
+                        <div id="blue_text">Петроградская</div>
+                    </div>
+                    <div id="metro_kanal">
+                        <img id="metro_purple" src="@/assets/metro_purple.png" alt="">
+                        <div id="purple_text">Обводный канал</div>
+                    </div>
+                    <div id="metro_politekh">
+                        <img id="metro_red" src="@/assets/metro_red.png" alt="">
+                        <div id="red_text">Политехническая</div>
+                    </div>
+                </div>
+            </div>
+            <div id="example_buildings">
+                <div id="example_heading">От застройщика</div>
+                <div id="buildings_btns">
+                    <div id="buildings_volt">
+                        <img id="buildings_pik" src="@/assets/pik.png" alt="">
+                        <div id="volt_text">ЖК "Вольта"</div>
+                    </div>
+                    <div id="buildings_air">
+                        <img id="buildings_pik" src="@/assets/pik.png" alt="">
+                        <div id="air_text">ЖК "Аэронавт"</div>
+                    </div>
+                    <div id="buildings_toriki">
+                        <img id="buildings_plain" src="@/assets/plain.png" alt="">
+                        <div id="toriki_text">Квартал Торики</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -162,9 +202,9 @@ export default {
     align-items: center;
     background-color: white;
     margin-top: 31px;
-    height: 634px;
+    height: 660px;
 }
-#about_label{
+#about_label, #example_label{
     font-size: 40px;
     font-weight: bold;
     margin-block: 33px;
@@ -210,6 +250,67 @@ mark.blue{
     width: 60px;
     height: 60px;
     margin-bottom: 43px;
+}
+
+#metro_blue, #metro_purple, #metro_red{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 27px;
+}
+#buildings_pik{
+    height: 30px;
+    margin-bottom: 27px;
+}
+
+#buildings_plain{
+    weight: 30px;
+    height: 46px;
+    margin-bottom: 27px;
+}
+
+#blue_text, #purple_text, #red_text, #volt_text, #air_text, #toriki_text{
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+#example_heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4E7BB4;
+}
+
+#example_columns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#metro_petr, #metro_kanal, #metro_politekh, #buildings_volt, #buildings_air, #buildings_toriki{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#exampleField{
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 31px;
+    height: 430px;
+}
+
+#example_metro, #example_buildings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 20px;
+    text-align: center;
+    margin-inline: 200px;
+    weight: 350px;
+    height: 300px;
 }
 
 </style>

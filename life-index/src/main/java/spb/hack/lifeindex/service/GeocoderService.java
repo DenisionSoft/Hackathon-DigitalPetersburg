@@ -18,7 +18,7 @@ public class GeocoderService {
         return new GeoPoint(geocoderDto.getGeoPoint().getLat(), geocoderDto.getGeoPoint().getLon());
     }
 
-    public GeocoderDto getDto(RequestParamsDto requestParamsDto) {
+    public GeocoderDto getAllData(RequestParamsDto requestParamsDto) {
         return geocoderClient.getDto(requestParamsDto);
     }
 }

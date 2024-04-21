@@ -28,7 +28,5 @@ public class GeocoderResponse {
     @JsonProperty("Latitude")
     public Double latitude;
 
-    // TODO: обрабатывать как эррор - если не налл значит адреса нет
-    @JsonProperty("error")
-    public String error;
+    // TODO: обрабатывать как эррор если налл на любой коорде
 }

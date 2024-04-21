@@ -1,18 +1,18 @@
 <template>
     <div id="field">
         <div id="heading">
-            <div id="logo">
-                <img id="logo_img" src="@/assets/bar_black.png">
-                <div id="logo_text">Хочу здесь жить</div>
-            </div>
+                <div id="logo" @click="$emit('page', 0)">
+                    <img id="logo_img" src="@/assets/bar_black.png">
+                    <div id="logo_text">Хочу здесь жить</div>
+                </div>
             <div id="result_field">
                 <div id="result_text">Оценка района для дома</div> 
                 <div id="address">по адресу {{adress}}</div> 
                 <div id="index" :style="{color: color}">{{index}}</div>
             </div>
             <div id="parameters">
-                <div v-for="(parameter, index) in parameters" :key="index">
-                    <div  id="parameter" v-if="parameter">{{setParams(index)}}</div>
+                <div v-for="(parameter, key) in parameters" :key="key">
+                    <div  id="parameter" v-if="parameter">{{setParams(key)}}</div>
                 </div>
             </div>
         </div>
@@ -63,6 +63,7 @@ export default {
             return this.params_names[index]
         }
     },
+    emits: ['page'],
 
 }
 </script>
@@ -91,6 +92,16 @@ export default {
   margin-left: 11px;
   margin-top: 29px;
   font-weight: bold;
+}
+#head {
+display: flex;
+justify-content: space-between;
+}
+#main_page_text{
+font-size: 24px;
+margin-right: 45px;
+margin-top: 29px;
+font-weight: bold;
 }
 #result_field{
     margin-top: 81px;

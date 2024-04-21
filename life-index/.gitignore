@@ -7,7 +7,7 @@ build/resources
 build/test-results
 build/tmp
 ## comment out lower to include built jars (for vm docker!)
-build/libs
+#build/libs
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/

@@ -19,20 +19,34 @@
           <input id="adress_btn" type="submit" value="Оценить" form="inputForm" >
         </div>
         <div id="params">
+        <div id="param">
           <div id="params_text">Важно учесть: </div>
+        </div>
+        <div id="param">
           <input id="metro_input" type="checkbox" form="inputForm" v-model="paramsValues.metroValue">
           <div id="params_text">Метро</div>
+        </div>
+        <div id="param">
           <input id="education_input" type="checkbox" form="inputForm" v-model="paramsValues.educationValue">
           <div id="params_text">Образование</div>
+        </div>
+        <div id="param">
           <input id="sport_input" type="checkbox" form="inputForm" v-model="paramsValues.sportValue">
           <div id="params_text">Спортивная доступность</div>
+        </div>
+        <div id="param">
           <input id="dosug_input" type="checkbox" form="inputForm" v-model="paramsValues.dosugValue">
           <div id="params_text">Досуг</div>
+        </div>
+        <div id="param">
           <input id="pets_input" type="checkbox" form="inputForm" v-model="paramsValues.petsValue">
           <div id="params_text">Для питомцев</div>
+        </div>
+        <div id="param">
           <input id="kudago_input" type="checkbox" form="inputForm" v-model="paramsValues.kudagoValue">
           <div id="params_text">Активности KudaGo</div>
         </div>
+      </div>
       </form>
       
     </div>
@@ -162,15 +176,25 @@ export default {
 #adress_btn:focus{
     outline: none;
 }
-#inputs, #params{
+#inputs{
     margin-top: 26px;
     display: flex;
     justify-content: center;
 }
-#input_field{
-    padding-top: 51px;
-    background-color: white;
-    padding-bottom: 56px;
+#params{
+  width: 1000px;
+  margin-inline:auto;
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#param{
+  margin-bottom: 15px;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 #icon{
     margin-top: 3px;
@@ -193,9 +217,19 @@ export default {
     padding-top: 9px;
 }
 #params_text{
-    font-size: 24px;
-    margin-right: 27px;
-    color: white;
+  font-size: 30px;
+  margin-right: 27px;
+  font-weight: bold;
+  color:white;
+}
+input[type="checkbox"]{
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+input[type="checkbox"]:checked{
+  background-color: #4E7BB4;
 }
 
 </style>

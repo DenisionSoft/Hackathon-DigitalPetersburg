@@ -10,12 +10,17 @@ import java.util.concurrent.Callable;
 
 @Service
 @RequiredArgsConstructor
+@Async
 public class SchoolService {
 
     private final SchoolClient schoolClient;
 
-    public SchoolDto getAllData(RequestParamsDto requestParamsDto) {
-        return schoolClient.getDto(requestParamsDto);
+    public Callable<ResponseDataDto> getAllData(RequestParamsDto requestParamsDto) {
+        SchoolDto schoolDto = schoolClient.getDto(requestParamsDto);
+        ResponseDataDto responseDataDto = new ResponseDataDto();
+        responseDataDto.setCount(schoolDto.getCount());
+        responseDataDto.setGeoData(schoolDto.getResults());
+        return () -> responseDataDto;
     }
 }
 

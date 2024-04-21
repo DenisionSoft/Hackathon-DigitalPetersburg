@@ -1,32 +1,36 @@
 <template>
-    <div id="field">
         <div id="heading">
-                <div id="logo" @click="$emit('page', 0)">
+            <div id="head">
+                <div id="logo">
                     <img id="logo_img" src="@/assets/bar_black.png">
                     <div id="logo_text">Хочу здесь жить</div>
                 </div>
-            <div id="result_field">
-                <div id="result_text">Оценка района для дома</div> 
-                <div id="address">по адресу {{adress}}</div> 
-                <div id="index" :style="{color: color}">{{index}}</div>
+                <div id="main_page_text" @click="$emit('page', 0)">Главная</div>
+            </div>
+            <div id = "main_field">
+                <div id="result_text">Сравнение оценок домов</div>
+                <div id="results">
+                    <div id="result_field" v-for:="(index, key) in multipleIndex" :key="key"> 
+                        <div id="address">по адресу {{multipleAdress[key]}}</div> 
+                        <div id="index" :style="{color: calcColor(index)}">{{index}}</div>
+                    </div>
+                </div>
             </div>
             <div id="parameters">
                 <div v-for="(parameter, key) in parameters" :key="key">
                     <div  id="parameter" v-if="parameter">{{setParams(key)}}</div>
                 </div>
             </div>
-        </div>
-        <img src="@/assets/rezultat.png" alt="">
     </div>
       
 </template>
 
 <script>
 export default {
-    name: 'ResultComp',
+    name: 'MultipleResultComp',
     data() {
         return {
-            color: this.calcColor(this.index),
+            color: '',
             params_names: {
                 'metroValue' : 'Метро', 
                 'educationValue' : 'Образование', 
@@ -37,8 +41,8 @@ export default {
             },
         }
     },
-    props: ['index',
-            'adress',
+    props: ['multipleIndex',
+            'multipleAdress',
             'parameters'],
     methods: {
         calcColor: function(index) {
@@ -64,15 +68,11 @@ export default {
         }
     },
     emits: ['page'],
-
 }
 </script>
 
 <style scoped>
-#field{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#heading{
     height: 790px;
     background-color: #e8edf3;
     border-radius: 32px;
@@ -103,14 +103,26 @@ margin-right: 45px;
 margin-top: 29px;
 font-weight: bold;
 }
-#result_field{
-    margin-top: 81px;
+#main_field{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-inline: 200px;
+    justify-content: center;
+}
+#results{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#result_field{
+    max-width: 330px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #result_text{
+    margin-top: 45px;
+    align-self: center;
     font-size: 40px;
     font-weight: bold;
 }
@@ -121,9 +133,6 @@ font-weight: bold;
 #index{
     font-size: 200px;
     margin-top: 20px;
-}
-#pic{
-    min-width: 495px;
 }
 #parameters{
     margin-left: 116px;

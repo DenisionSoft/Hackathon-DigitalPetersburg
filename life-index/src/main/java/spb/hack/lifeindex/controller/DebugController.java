@@ -14,6 +14,9 @@ import spb.hack.lifeindex.model.House;
 import spb.hack.lifeindex.model.Index;
 import spb.hack.lifeindex.model.dto.FrontendRequestDto;
 import spb.hack.lifeindex.model.dto.RequestParamsDto;
+import spb.hack.lifeindex.model.dto.impl.ClinicDto;
+import spb.hack.lifeindex.model.dto.impl.GeocoderDto;
+import spb.hack.lifeindex.service.ClinicService;
 import spb.hack.lifeindex.service.GeocoderService;
 
 import java.util.ArrayList;
@@ -24,6 +27,7 @@ import java.util.ArrayList;
 public class DebugController {
 
     private final GeocoderService geocoderService;
+    private final ClinicService clinicService;
 
     @PostMapping("/geocoder")
     public ResponseEntity<GeoPoint> getGeoPoint(@RequestBody FrontendRequestDto frontendRequestDto) {
@@ -34,6 +38,26 @@ public class DebugController {
         GeoPoint geoPoint = geocoderService.getGeoPoint(requestParamsDto);
         System.out.println("Sending: " + geoPoint);
         return ResponseEntity.ok(geoPoint);
+    }
+
+    @PostMapping("/clinic")
+    public ResponseEntity<ClinicDto> getClinic(@RequestBody FrontendRequestDto frontendRequestDto) {
+        System.out.println("Recieved:" + frontendRequestDto);
+        // IndexService would take necessary data and form RequestParamsDto for each service, here we do it manually
+        // here, first get the geo point
+        RequestParamsDto requestParamsDto = new RequestParamsDto();
+        requestParamsDto.setAddress(frontendRequestDto.getAddresses().getFirst());
+        GeocoderDto geocoderDto = geocoderService.getAllData(requestParamsDto);
+        District district = geocoderDto.getDistrict();
+
+        requestParamsDto.setHouse(geocoderDto.getHouse());
+        requestParamsDto.setAddress(geocoderDto.getHouse().getAddress());
+        requestParamsDto.setRadius(10);
+        requestParamsDto.setPage(1);
+
+        ClinicDto clinicDto = clinicService.getAllData(requestParamsDto);
+        System.out.println("Sending:" + clinicDto);
+        return ResponseEntity.ok(clinicDto);
     }
 
     @PostMapping("/index")

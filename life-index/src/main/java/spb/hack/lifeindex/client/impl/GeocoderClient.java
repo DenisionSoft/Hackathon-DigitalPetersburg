@@ -22,7 +22,7 @@ public class GeocoderClient implements ApiClient {
     public GeocoderDto getDto(RequestParamsDto requestParamsDto) {
         // подготовка урла
         String endpoint = "/parse/free?";
-        String paramStreet = "street=" + requestParamsDto.getAddress();
+        String paramStreet = "street=" + requestParamsDto.getHouse().getAddress();
         String url = BASE_URL + endpoint + paramStreet;
         // запрос к прокси клиенту
         GeocoderResponse geocoderResponse = proxyClient.get(url, GeocoderResponse.class);

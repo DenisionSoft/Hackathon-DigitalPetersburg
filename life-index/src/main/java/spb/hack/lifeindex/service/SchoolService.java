@@ -7,7 +7,6 @@ import spb.hack.lifeindex.model.dto.RequestParamsDto;
 import spb.hack.lifeindex.model.dto.ResponseDataDto;
 import spb.hack.lifeindex.model.dto.impl.SchoolDto;
 
-import java.util.concurrent.Callable;
 
 @Service
 @RequiredArgsConstructor

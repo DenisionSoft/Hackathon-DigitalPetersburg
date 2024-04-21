@@ -15,5 +15,6 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SchoolDto extends ApiDto {
+    private Integer count;
     private ArrayList<Pair<GeoPoint, District>> results;
 }

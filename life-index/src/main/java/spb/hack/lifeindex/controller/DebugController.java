@@ -36,7 +36,7 @@ public class DebugController {
         return ResponseEntity.ok(geoPoint);
     }
 
-    @PostMapping
+    @PostMapping("/index")
     public ResponseEntity<ArrayList<Index>> getIndex(@RequestBody FrontendRequestDto frontendRequestDto) {
         System.out.println("Recieved:" + frontendRequestDto);
         // IndexService would take necessary data and form RequestParamsDto for each service, here we do it manually

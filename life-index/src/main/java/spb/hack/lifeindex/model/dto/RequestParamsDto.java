@@ -13,7 +13,6 @@ import spb.hack.lifeindex.model.House;
 public class RequestParamsDto {
     // всевозможные данные, которые мы передаём в запросы
     private House house;
-    private District district;
-    private String address;
     private Long radius;
+    private String modifier;
 }

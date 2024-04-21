@@ -98,7 +98,7 @@ export default {
 }
 #main_page_text{
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   margin-right: 45px;
   margin-top: 29px;
   font-weight: bold;
@@ -178,7 +178,7 @@ export default {
     height: 52px;
 }
 #multiple_btn{
-    font-size: 24px;
+    font-size: 22px;
     color: white;
     border: solid 2px white;
     margin-left: 153px;

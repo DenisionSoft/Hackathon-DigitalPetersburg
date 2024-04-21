@@ -3,17 +3,13 @@ package spb.hack.lifeindex.service;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import calculations.BeautifulPlacesResult.BeautifulPlaceTerm;
-import calculations.BeautifulPlacesResult.ClinicResult.KindergartensResult.KudaGOResult.LibrariesResult.MinCultResult.MuseumResult.PetClinicsResult.PetParksResult.RecyclingResult.RestaurantResult.RestaurantTerm;
+import spb.hack.lifeindex.model.House;
 import spb.hack.lifeindex.model.Index;
 import spb.hack.lifeindex.model.dto.*;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Future;
-import java.util.concurrent.TimeoutException;
+import java.util.concurrent.*;
 import java.util.stream.IntStream;
 
 // import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
@@ -22,33 +18,57 @@ import java.util.stream.IntStream;
 @AllArgsConstructor
 public class IndexService {
 
+    private final ClinicService clinicService;
+
+    private final GeocoderService geocoderService;
+    //private final KinderService kinderService;
+    private final SchoolService schoolService;
+    private final RestaurantService restaurantService;
+
     
     public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) /*throws Exception*/ {
-        ExecutorService executorService = ExecutorService.newFixedThreadPool(15);
-        Collection<Callable<Double>> callables = new ArrayList<>();
-        for (int j = 0; j<frontendRequestDto.amount; j++)
-        {
-            ArrayList<Double> Weights = new ArrayList(15);
+
+        ArrayList<House> houses = new ArrayList<>();
+        for (String address : frontendRequestDto.getAddresses()) {
+            RequestParamsDto requestParamsDto = new RequestParamsDto();
+            requestParamsDto.setAddress(address);
+            houses.add(geocoderService.getAllData(requestParamsDto).getHouse());
+        }
+
+        ExecutorService executorService = Executors.newFixedThreadPool(15);
+        Collection<Callable<ResponseDataDto>> callables = new ArrayList<>(15);
+        for (House house : houses) {
+            ArrayList<Double> Weights = new ArrayList<>();
             Double totalWeight = Weights.stream().mapToDouble(Double::doubleValue).sum();
-            ArrayList<Integer> retryCounter = new ArrayList(15);
-            ArrayList<Future<Double>> indexFutureList = new ArrayList<Future<Double>>(15);
-            int dropCount = 0;
-            bool toRetry = false;
-            callables.add(ClinicsServise());
-            callables.add(ProblemsService());
-            callables.add(TheatresService());
-            callables.add(CinemasService());
-            callables.add(CudaGoService());
-            callables.add(SportgroundsService());
-            callables.add(SchoolsService());
-            callables.add(RestaurantService());
-            callables.add(RecyclingService());
-            callables.add(PetService());
-            callables.add(MuseumService());
-            callables.add(LibrariesService());
-            callables.add(KindergartensService());
-            callables.add(BeautifulPlacesService());
-            callables.add(TransportService());
+            ArrayList<Integer> retryCounter = new ArrayList<>(15);
+            ArrayList<Future<Double>> indexFutureList = new ArrayList<>(15);
+            Integer dropCount = 0;
+            Boolean toRetry = false;
+
+            RequestParamsDto requestParamsDto = new RequestParamsDto();
+            requestParamsDto.setHouse(house);
+            requestParamsDto.setAddress(house.getAddress());
+            requestParamsDto.setRadius(frontendRequestDto.getRadius());
+            requestParamsDto.setPage(1);
+
+            //callables.add(schoolService.getAllData(requestParamsDto));
+            //callables.add(restaurantService.getAllData(requestParamsDto));
+
+            callables.add(clinicService.getAllData(requestParamsDto));
+            //callables.add(ProblemsService());
+            //callables.add(TheatresService());
+            //callables.add(CinemasService());
+            //callables.add(CudaGoService());
+            //callables.add(SportgroundsService());
+            //callables.add(SchoolsService());
+            //callables.add(RestaurantService());
+            //callables.add(RecyclingService());
+            //callables.add(PetService());
+            //callables.add(MuseumService());
+            //callables.add(LibrariesService());
+            //callables.add(KindergartensService());
+            //callables.add(BeautifulPlacesService());
+            //callables.add(TransportService());
             for (int i = 0; i<15;i++)
             {
                 indexFutureList.set(i,executorService.execute(callables.get(i)));

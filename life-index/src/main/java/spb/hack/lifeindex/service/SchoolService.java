@@ -6,13 +6,15 @@ import spb.hack.lifeindex.client.impl.SchoolClient;
 import spb.hack.lifeindex.model.dto.RequestParamsDto;
 import spb.hack.lifeindex.model.dto.impl.SchoolDto;
 
+import java.util.concurrent.Callable;
+
 @Service
 @RequiredArgsConstructor
 public class SchoolService {
 
-    private final ClinicClient clinicClient;
+    private final SchoolClient sClient;
 
-    public SchoolDto getAllData(RequestParamsDto requestParamsDto) {
+    public Callable<Double> getAllData(RequestParamsDto requestParamsDto) {
         return clinicClient.getDto(requestParamsDto);
     }
 }

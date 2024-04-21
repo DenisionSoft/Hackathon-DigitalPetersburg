@@ -8,10 +8,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import spb.hack.lifeindex.model.District;
 import spb.hack.lifeindex.model.GeoPoint;
+import spb.hack.lifeindex.model.House;
+import spb.hack.lifeindex.model.Index;
 import spb.hack.lifeindex.model.dto.FrontendRequestDto;
 import spb.hack.lifeindex.model.dto.RequestParamsDto;
 import spb.hack.lifeindex.service.GeocoderService;
+
+import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/api/debug")
@@ -29,6 +34,27 @@ public class DebugController {
         GeoPoint geoPoint = geocoderService.getGeoPoint(requestParamsDto);
         System.out.println("Sending: " + geoPoint);
         return ResponseEntity.ok(geoPoint);
+    }
+
+    @PostMapping
+    public ResponseEntity<ArrayList<Index>> getIndex(@RequestBody FrontendRequestDto frontendRequestDto) {
+        System.out.println("Recieved:" + frontendRequestDto);
+        // IndexService would take necessary data and form RequestParamsDto for each service, here we do it manually
+        District district = new District();
+        district.setName("Выборгский");
+        GeoPoint geoPoint = new GeoPoint(0, 0);
+        House house = new House();
+        house.setBuildingId(1L);
+        house.setAddress("Лиственная, 18к1");
+        house.setDistrict(district);
+        house.setGeoPoint(geoPoint);
+        Index index1 = new Index();
+        index1.setHouse(house);
+        index1.setValue(86.0);
+        ArrayList<Index> indexes = new ArrayList<>();
+        indexes.add(index1);
+        System.out.println("Sending:" + indexes);
+        return ResponseEntity.ok(indexes);
     }
 
 }

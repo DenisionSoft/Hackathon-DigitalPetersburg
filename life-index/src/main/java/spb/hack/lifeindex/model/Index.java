@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 public class Index {
     private Long id;
     private House house;
-    private Long value;
+    private Double value;
     // WORK IN PROGRESS!!!
     // list (?) of subindexes
 }

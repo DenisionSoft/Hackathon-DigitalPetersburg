@@ -1,11 +1,13 @@
 package spb.hack.lifeindex.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
 
 @Data
+@NoArgsConstructor
 public class District {
     private String name;
     private Long id;

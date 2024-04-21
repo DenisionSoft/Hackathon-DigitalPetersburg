@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import spb.hack.lifeindex.model.*;
-import spb.hack.lifeindex.model.dto.*;
+import spb.hack.lifeindex.model.Index;
+import spb.hack.lifeindex.model.dto.FrontendRequestDto;
 import spb.hack.lifeindex.service.IndexService;
 
 import java.util.ArrayList;

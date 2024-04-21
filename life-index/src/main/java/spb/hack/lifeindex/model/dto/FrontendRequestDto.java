@@ -11,8 +11,8 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FrontendRequestDto {
-    public Long amount;
-    public Long radius;
+    public Integer amount;
+    public Integer radius;
     public ArrayList<String> addresses;
     // parameters, perhaps model for it or simply number + bool values like maps or smth
 }

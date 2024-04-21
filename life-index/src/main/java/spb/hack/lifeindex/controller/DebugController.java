@@ -52,7 +52,7 @@ public class DebugController {
 
         requestParamsDto.setHouse(geocoderDto.getHouse());
         requestParamsDto.setAddress(geocoderDto.getHouse().getAddress());
-        requestParamsDto.setRadius(10);
+        requestParamsDto.setRadius(frontendRequestDto.radius);
         requestParamsDto.setPage(1);
 
         ClinicDto clinicDto = clinicService.getAllData(requestParamsDto);

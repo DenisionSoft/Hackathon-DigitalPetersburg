@@ -9,7 +9,7 @@
             <div id="subheading_text">Наш сервис оценивает качество района и жилого дома для полной и счастливой жизни</div>
             <div id="btns">
                 <button id="adress_btn_left" @click="$emit('page', 1)">Оценить</button>
-                <button id="try_btn">Примеры</button>
+                <button id="try_btn" @click="scrollToExample">Примеры</button>
             </div>
         </div>
         <div id="right_block">
@@ -91,7 +91,15 @@
 <script>
 export default {
   name: 'MainPageComp',
-  emits: ['page']
+  emits: ['page'],
+  methods: {
+    scrollToExample() {
+      const exampleField = document.getElementById('exampleField');
+      if (exampleField) {
+        exampleField.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
 }
 </script>
 
@@ -202,7 +210,7 @@ export default {
     align-items: center;
     background-color: white;
     margin-top: 31px;
-    height: 660px;
+    height: 690px;
 }
 #about_label, #example_label{
     font-size: 40px;
@@ -252,6 +260,16 @@ mark.blue{
     margin-bottom: 43px;
 }
 
+#exampleField{
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 31px;
+    height: 430px;
+}
+
 #metro_blue, #metro_purple, #metro_red{
     width: 50px;
     height: 50px;
@@ -272,12 +290,14 @@ mark.blue{
     text-align: center;
     font-size: 26px;
     text-decoration: underline;
+    margin-left:20px;
 }
 
 #example_heading{
     font-size: 32px;
     font-weight: bold;
     color: #4E7BB4;
+    margin-bottom: 10px;
 }
 
 #example_columns{
@@ -290,17 +310,9 @@ mark.blue{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 70px;
 }
 
-#exampleField{
-    border-radius: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    margin-top: 31px;
-    height: 430px;
-}
 
 #example_metro, #example_buildings{
     display: flex;
@@ -312,5 +324,6 @@ mark.blue{
     weight: 350px;
     height: 300px;
 }
+
 
 </style>

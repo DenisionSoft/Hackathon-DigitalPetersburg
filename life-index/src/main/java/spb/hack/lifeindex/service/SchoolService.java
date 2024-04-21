@@ -12,10 +12,10 @@ import java.util.concurrent.Callable;
 @RequiredArgsConstructor
 public class SchoolService {
 
-    private final SchoolClient sClient;
+    private final SchoolClient schoolClient;
 
-    public Callable<Double> getAllData(RequestParamsDto requestParamsDto) {
-        return clinicClient.getDto(requestParamsDto);
+    public SchoolDto getAllData(RequestParamsDto requestParamsDto) {
+        return schoolClient.getDto(requestParamsDto);
     }
 }
 

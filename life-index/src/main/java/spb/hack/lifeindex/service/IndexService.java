@@ -12,14 +12,15 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeoutException;
 import java.util.stream.IntStream;
 
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
+// import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 
 @Service
 @AllArgsConstructor
 public class IndexService {
 
     
-    public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) throws Exception {
+    public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) /*throws Exception*/ {
+        /*
         ExecutorService executorService = ExecutorService.newFixedThreadPool(15);
         Collection<Callable<Index>> callables = new ArrayList<>();
         ArrayList<Double> Weights = new ArrayList(15);
@@ -91,5 +92,6 @@ public class IndexService {
         } finally {
         future.cancel(true); // may or may not desire this
         }*/
+        return null;
     }
 }

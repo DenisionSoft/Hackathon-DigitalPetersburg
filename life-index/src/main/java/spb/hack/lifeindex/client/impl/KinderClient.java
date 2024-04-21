@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 @Service
 @AllArgsConstructor
-public class ClinicClient implements ApiClient {
+public class KinderClient implements ApiClient {
 
     private final ProxyClient proxyClient;
     private static final String BASE_URL = "https://spb-classif.gate.petersburg.ru/api/v2/datasets/149/versions/latest/data/327";

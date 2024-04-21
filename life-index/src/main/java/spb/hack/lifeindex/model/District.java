@@ -13,6 +13,13 @@ public class District {
     private Long id;
     private ArrayList<District> neighbors;
 
+    public District(String name) {
+        this.name = name;
+        ArrayList<District> neighbors = new ArrayList<>();
+        // copypaste
+        this.neighbors = neighbors;
+    }
+
     public District(String name, Long id) {
         this.name = name;
         this.id = id;
@@ -20,6 +27,6 @@ public class District {
         // beginner binning, for districts that needs to be binned
         // for now just null
         // TODO: add binning instead of null
-        this.neighbors = null;
+        this.neighbors = neighbors;
     }
 }

@@ -10,10 +10,10 @@ import spb.hack.lifeindex.model.dto.impl.SchoolDto;
 @RequiredArgsConstructor
 public class SchoolService {
 
-    private final ClinicClient clinicClient;
+    private final SchoolClient schoolClient;
 
     public SchoolDto getAllData(RequestParamsDto requestParamsDto) {
-        return clinicClient.getDto(requestParamsDto);
+        return schoolClient.getDto(requestParamsDto);
     }
 }
 

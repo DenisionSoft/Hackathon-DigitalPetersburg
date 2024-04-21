@@ -1,7 +1,7 @@
 <template>
         <div id="heading">
             <div id="head">
-                <div id="logo">
+                <div id="logo" @click="$emit('page', 0)">
                     <img id="logo_img" src="@/assets/bar_black.png">
                     <div id="logo_text">Хочу здесь жить</div>
                 </div>
@@ -32,12 +32,10 @@ export default {
         return {
             color: '',
             params_names: {
-                'metroValue' : 'Метро', 
                 'educationValue' : 'Образование', 
-                'sportValue' : 'Спортивная доступность', 
-                'dosugValue' : 'Досуг', 
-                'petsValue' : 'Для питомцев', 
-                'kudagoValue' : 'Активности KudaGo'
+                'healthValue' : 'Здравоохранение', 
+                'museumValue' : 'Музеи', 
+                'restoranValue' : 'Рестораны', 
             },
         }
     },

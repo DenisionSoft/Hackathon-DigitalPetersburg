@@ -53,15 +53,15 @@
             <div id="example_metro">
                 <div id="example_heading">Метро</div>
                 <div id="metro_btns">
-                    <div id="metro_petr">
+                    <div id="metro_petr" @click="sendData(string1)">
                         <img id="metro_blue" src="@/assets/metro_blue.png" alt="">
                         <div id="blue_text">Петроградская</div>
                     </div>
-                    <div id="metro_kanal">
+                    <div id="metro_kanal" @click="sendData(string2)">
                         <img id="metro_purple" src="@/assets/metro_purple.png" alt="">
                         <div id="purple_text">Обводный канал</div>
                     </div>
-                    <div id="metro_politekh">
+                    <div id="metro_politekh" @click="sendData(string3)">
                         <img id="metro_red" src="@/assets/metro_red.png" alt="">
                         <div id="red_text">Политехническая</div>
                     </div>
@@ -70,15 +70,15 @@
             <div id="example_buildings">
                 <div id="example_heading">От застройщика</div>
                 <div id="buildings_btns">
-                    <div id="buildings_volt">
+                    <div id="buildings_volt" @click="sendData(string4)">
                         <img id="buildings_pik" src="@/assets/pik.png" alt="">
                         <div id="volt_text">ЖК "Вольта"</div>
                     </div>
-                    <div id="buildings_air">
+                    <div id="buildings_air" @click="sendData(string5)">
                         <img id="buildings_pik" src="@/assets/pik.png" alt="">
                         <div id="air_text">ЖК "Аэронавт"</div>
                     </div>
-                    <div id="buildings_toriki">
+                    <div id="buildings_toriki" @click="sendData(string6)">
                         <img id="buildings_plain" src="@/assets/plain.png" alt="">
                         <div id="toriki_text">Квартал Торики</div>
                     </div>
@@ -88,18 +88,36 @@
     </div>
 </template>
 
+
 <script>
 export default {
   name: 'MainPageComp',
-  emits: ['page'],
-  methods: {
-    scrollToExample() {
+  data(){
+      return {
+        adressValue: " ",
+        radiusValue: 1,
+        paramsValues: [],
+        string1: "г.Санкт-Петербург, Каменноостровский проспект, дом 37, литера А",
+        string2: "г.Санкт-Петербург, Лиговский проспект, дом 153, литера А",
+        string3: "г.Санкт-Петербург, Политехническая улица, дом 29а, литера А",
+        string4: "г.Санкт-Петербург, проспект Энергетиков, дом 8, корпус 1, литера А",
+        string5: "г.Санкт-Петербург, Лиговский проспект, дом 242, литера В",
+        string6: "г.Санкт-Петербург, муниципальный округ Горелово, тер. СНТ Автомобилист, Парковая улица, дом 22, литера А",
+      }
+    },
+    methods:{
+      sendData(adress) {
+        this.adressValue = adress
+        this.$emit('inputValues', {adress: this.adressValue, radius: this.radiusValue, params: this.paramsValues})
+      },
+      scrollToExample() {
       const exampleField = document.getElementById('exampleField');
       if (exampleField) {
         exampleField.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
-  }
+  },
+    emits: ['inputValues', 'page']
 }
 </script>
 

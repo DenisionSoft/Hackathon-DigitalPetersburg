@@ -306,6 +306,9 @@ public class SchoolTerm extends Term {
 
     @Override
     public double calculate() {
+        if (distance.size() == 0) {
+            return 0;
+        }
         double result = 0;
         for(double distance : distances) {
             result += Utils.distFunction(distance);

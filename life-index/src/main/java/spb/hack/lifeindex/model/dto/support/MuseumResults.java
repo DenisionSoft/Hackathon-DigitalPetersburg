@@ -12,7 +12,7 @@ import java.util.ArrayList;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @NoArgsConstructor
-public class RestaurantResults {
+public class MuseumResults {
     @JsonProperty("coordinates")
     public ArrayList<Double> coordinates;
 }

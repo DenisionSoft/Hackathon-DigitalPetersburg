@@ -1,3 +1,5 @@
+package spb.hack.lifeindex.model.dto.impl;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +14,7 @@ import java.util.ArrayList;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Restaurant {
+public class RestaurantDto extends ApiDto {
     private Integer count;
-    private ArrayList<Pair<GeoPoint, District>> results;
+    private ArrayList<GeoPoint> coordinates;
 }

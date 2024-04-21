@@ -10,9 +10,7 @@ import java.util.ArrayList;
 
 @Data
 @RequiredArgsConstructor
-@AllArgsConstructor
-@NoArgsConstructor
 public class RestaurantResults {
-    @JsonProperty("coordinates")
+    @JsonProperty("coord")
     public ArrayList<Double> coordinates;
 }

@@ -10,8 +10,6 @@ import java.util.ArrayList;
 
 @Data
 @RequiredArgsConstructor
-@AllArgsConstructor
-@NoArgsConstructor
 public class SchoolResults {
     @JsonProperty("coordinates")
     public ArrayList<Double> coordinates;

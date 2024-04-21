@@ -31,16 +31,16 @@ public class RestaurantClient implements ApiClient {
         String paramPerPage = "&per_page=100";
         String url = BASE_URL + endpoint + paramPage + paramPerPage;
         // запрос к прокси клиенту
-        ResturantResponse restaurantResponse = proxyClient.get(url, RestaurantResponse.class);
+        RestaurantResponse restaurantResponse = proxyClient.get(url, RestaurantResponse.class);
         // обработка респонса в дто
         Integer count = restaurantResponse.getResults().size();
-        ArrayList<Pair<GeoPoint, District>> results = new ArrayList<>();
+        ArrayList<GeoPoint> results = new ArrayList<>();
         restaurantResponse.getResults().forEach(result -> {
-            results.add(new Pair<>(new GeoPoint(result.getCoordinates().get(0), result.getCoordinates().get(1)), new District(result.getDistrict())));
+            results.add(new GeoPoint(result.coordinates.getFirst(), result.coordinates.getLast()));
         });
         RestaurantDto restaurantDto = new RestaurantDto();
         restaurantDto.setCount(count);
-        restaurantDto.setResults(results);
+        restaurantDto.setCoordinates(results);
         // возврат дто
         return restaurantDto;
     }

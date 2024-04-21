@@ -14,5 +14,6 @@ public class FrontendRequestDto {
     public Integer amount;
     public Integer radius;
     public ArrayList<String> addresses;
+    
     // parameters, perhaps model for it or simply number + bool values like maps or smth
 }

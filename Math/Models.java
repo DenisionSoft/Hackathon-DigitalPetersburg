@@ -381,7 +381,7 @@ public class TheatreTerm extends Term {
 class TransportResult;
 
 public class TransportTerm extends Term {
-    public TransportTerm(Coordinates coords, double radius, TransportTerm transports) {
+    public TransportTerm(Coordinates coords, double radius, TransportResult transports) {
         this.coords = coords;
         this.transports = transports;
         this.radius = radius;
@@ -399,4 +399,33 @@ public class TransportTerm extends Term {
 
     HashSet<String> routes;
     TransportTerm transports;
+}
+
+class OurPetersburgResult;
+
+public class OurPetersburgTerm extends Term {
+    public OurPetersburgTerm(OurPetersburgResult ourPetersburg) {
+        this.ourPetersburg = ourPetersburg;
+    }
+
+    @Override
+    public double calculate() {
+        double score = 0;
+        for (problem : ourPetersburg.problems)
+        {
+            if (problem.is_closed == 0)
+                score -= 1;
+            else
+            {
+                if (listMinuses.contains(problem.type()))
+                    score+=0.5;
+                else if (listEquals.contains(problem.type()))
+                    score+=0.75;
+                else if (listPluses.contains(problem.type()))
+                    score+=1;
+            }
+        }
+        return score/problems.count();
+    }
+    private OurPetersburgResult ourPetersburg;
 }

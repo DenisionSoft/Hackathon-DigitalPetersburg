@@ -16,10 +16,4 @@ public class GeocoderDto extends ApiDto {
     private District district;
     private GeoPoint geoPoint;
     private House house;
-    // убрать это
-
-    public String getTest() {
-        return null;
-    }
-
 }

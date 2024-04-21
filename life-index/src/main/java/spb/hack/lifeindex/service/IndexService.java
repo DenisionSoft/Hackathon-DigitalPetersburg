@@ -25,7 +25,6 @@ public class IndexService {
     private final SchoolService schoolService;
     private final RestaurantService restaurantService;
 
-    
     public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) /*throws Exception*/ {
 
         ArrayList<House> houses = new ArrayList<>();
@@ -35,13 +34,9 @@ public class IndexService {
             houses.add(geocoderService.getAllData(requestParamsDto).getHouse());
         }
 
-        ExecutorService executorService = Executors.newFixedThreadPool(15);
-        Collection<Callable<ResponseDataDto>> callables = new ArrayList<>(15);
         for (House house : houses) {
             ArrayList<Double> Weights = new ArrayList<>();
             Double totalWeight = Weights.stream().mapToDouble(Double::doubleValue).sum();
-            ArrayList<Integer> retryCounter = new ArrayList<>(15);
-            ArrayList<Future<Double>> indexFutureList = new ArrayList<>(15);
             Integer dropCount = 0;
             Boolean toRetry = false;
 
@@ -51,6 +46,10 @@ public class IndexService {
             requestParamsDto.setRadius(frontendRequestDto.getRadius());
             requestParamsDto.setPage(1);
 
+
+        }
+
+            /*
             //callables.add(schoolService.getAllData(requestParamsDto));
             //callables.add(restaurantService.getAllData(requestParamsDto));
 
@@ -69,9 +68,10 @@ public class IndexService {
             //callables.add(KindergartensService());
             //callables.add(BeautifulPlacesService());
             //callables.add(TransportService());
-            for (int i = 0; i<15;i++)
-            {
+            int i = 0;
+            for (Callable<ResponseDataDto> callable : callables) {
                 indexFutureList.set(i,executorService.execute(callables.get(i)));
+                i++;
             }
             for (int i = 0; i<15;i++)
             {
@@ -114,7 +114,7 @@ public class IndexService {
         ansIndex.set(0, new Index(totalIndex));
         callables.clear();
         return ansIndexes;
-        /*ExecutorService executor = Executors.newCachedThreadPool();
+        ExecutorService executor = Executors.newCachedThreadPool();
         Future<Index> future = executor.submit(GetMinCultIndex());
         try {
         Object result = future.get(30, TimeUnit.SECONDS); 

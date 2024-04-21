@@ -16,12 +16,13 @@ import java.util.concurrent.Callable;
 public class ClinicService {
 
     private final ClinicClient clinicClient;
+    private final GlebService glebService;
 
-    public Callable<ResponseDataDto> getAllData(RequestParamsDto requestParamsDto) {
+    public ResponseDataDto getAllData(RequestParamsDto requestParamsDto) {
         ClinicDto clinicDto = clinicClient.getDto(requestParamsDto);
         ResponseDataDto responseDataDto = new ResponseDataDto();
         responseDataDto.setCount(clinicDto.getCount());
         responseDataDto.setGeoData(clinicDto.getResults());
-        return () -> responseDataDto;
+        return responseDataDto;
     }
 }

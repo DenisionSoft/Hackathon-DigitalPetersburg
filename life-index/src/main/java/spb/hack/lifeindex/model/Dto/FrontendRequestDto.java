@@ -8,7 +8,8 @@ import lombok.RequiredArgsConstructor;
 import java.util.ArrayList;
 
 @Data
-@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
 public class FrontendRequestDto {
     public Long amount;
     public Long radius;

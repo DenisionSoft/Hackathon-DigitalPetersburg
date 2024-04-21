@@ -8,7 +8,8 @@ import spb.hack.lifeindex.model.District;
 import spb.hack.lifeindex.model.House;
 
 @Data
-@RequiredArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
 public class RequestParamsDto {
     // всевозможные данные, которые мы передаём в запросы
     private House house;

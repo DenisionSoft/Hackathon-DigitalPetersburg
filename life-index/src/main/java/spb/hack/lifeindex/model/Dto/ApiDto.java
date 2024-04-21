@@ -1,8 +1,8 @@
 package spb.hack.lifeindex.model.dto;
 
-public interface ApiDto {
+public abstract class ApiDto {
     // куча методов для самых разных кейсов нужной нам информации
     String test = "";
 
-    String getTest();
+    protected abstract String getTest();
 }

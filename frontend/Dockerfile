@@ -1,5 +1,7 @@
 FROM node:21-alpine
 
+LABEL org.opencontainers.image.source=https://github.com/DenisionSoft/life-quality-index
+
 WORKDIR /app
 
 COPY package*.json ./

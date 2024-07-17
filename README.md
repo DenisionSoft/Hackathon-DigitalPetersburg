@@ -9,7 +9,7 @@ There were two contests. The first one, spanning a week prior to the hackathon, 
 
 This project won in both nominations: </br>
 [Best Service Idea]() </br>
-[Best Service]()
+[Best Service](/github/bestservice.jpg)
 
 **Team Dune is:** </br>
 [DenisionSoft](https://github.com/DenisionSoft) </br>
@@ -31,6 +31,11 @@ Both compose files contain a burner API key for the backend to access APIs. This
 
 ## Screenshots
 
+![front](/github/front.png)
+
+![form](/github/form.png)
+
+![result](/github/result.png)
 
 ## Commit history
 The last commit made during the event was [7c54dd1](https://github.com/DenisionSoft/life-quality-index/commit/7c54dd1e351132662bc1da9ce738ad8eb23a9152), which represents the state of the repository when the coding time was up. Any commit since then serves only to clean up the code a little, write this README file and make the project demoable by publishing the images.

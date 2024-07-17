@@ -1,18 +1,15 @@
 package spb.hack.lifeindex.client.impl;
 
 import lombok.AllArgsConstructor;
-import org.antlr.v4.runtime.misc.Pair;
 import org.springframework.stereotype.Service;
 import spb.hack.lifeindex.client.ApiClient;
 import spb.hack.lifeindex.client.ProxyClient;
 import spb.hack.lifeindex.model.District;
 import spb.hack.lifeindex.model.GeoPoint;
-import spb.hack.lifeindex.model.House;
 import spb.hack.lifeindex.model.dto.RequestParamsDto;
 import spb.hack.lifeindex.model.dto.impl.ClinicDto;
-import spb.hack.lifeindex.model.dto.impl.GeocoderDto;
 import spb.hack.lifeindex.model.response.ClinicResponse;
-import spb.hack.lifeindex.model.response.GeocoderResponse;
+import spb.hack.lifeindex.util.Pair;
 
 import java.util.ArrayList;
 

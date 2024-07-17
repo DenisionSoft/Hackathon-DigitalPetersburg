@@ -25,8 +25,8 @@ public class District {
         this.id = id;
         ArrayList<District> neighbors = new ArrayList<>();
         // beginner binning, for districts that needs to be binned
-        // for now just null
-        // TODO: add binning instead of null
+        // for now just empty
+        // ideally this is where district binning should be
         this.neighbors = neighbors;
     }
 }

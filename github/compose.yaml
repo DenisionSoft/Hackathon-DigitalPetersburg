@@ -1,0 +1,23 @@
+services:
+
+  li-backend:
+    container_name: li-backend
+    image: ghcr.io/denisionsoft/life-quality-index/li-backend:latest
+    environment:
+      - 'SPB_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhU1RaZm42bHpTdURYcUttRkg1SzN5UDFhT0FxUkhTNm9OendMUExaTXhFIn0.eyJleHAiOjE4MTU4NzM2MjMsImlhdCI6MTcyMTE3OTIyMywianRpIjoiMTk3ODYyZjAtYmJlNy00YTliLWI1NDQtZmE1ODk1MWNmZTM5IiwiaXNzIjoiaHR0cHM6Ly9rYy5wZXRlcnNidXJnLnJ1L3JlYWxtcy9lZ3MtYXBpIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjU2YmQyZDE4LTZjM2ItNGQyMy05OWUxLWMyZGIyNjRlZWJhYSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFkbWluLXJlc3QtY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6IjgyMTgyNmUyLTgyOTUtNGQ5ZS1hY2UxLTZjMzM3MGFkZmViZiIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiLyoiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbImRlZmF1bHQtcm9sZXMtZWdzLWFwaSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzaWQiOiI4MjE4MjZlMi04Mjk1LTRkOWUtYWNlMS02YzMzNzBhZGZlYmYiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiLQktC70LDQtNC40LzQuNGAINCc0LDRj9C60L7QstGB0LrQuNC5IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiMzFhNDg5MmIwMmQ2NWVlYjNkNjZhOWVlMDZhYTY2NjgiLCJnaXZlbl9uYW1lIjoi0JLQu9Cw0LTQuNC80LjRgCIsImZhbWlseV9uYW1lIjoi0JzQsNGP0LrQvtCy0YHQutC40LkifQ.ejA3baehpJ7gyGRa5N-N3xO2ygOKHGq7UN6WzqKBFYb0tZykAKcwfJWIpf5X3u6jzQQ_fTSHHCPJYQp7NE-zE-M0PeRdfurZABXEYphqU-uSO585u1nUutNvnoUvE6xp2VvH93zVQKwIIrg4fEzg8uDjfU02kf37_b8Dm55-tl5f27WqhqJBkslmemEqp7RlnaUcyTdtdwrU6pwrWJe0xmGJYtlKn2VGmgAGfQNN4WZmSEhloRl3njnv4ZIRW1p9XSFKXoJV9LIxWCOD5l4TmrOnlkKk54-wjNOkmBdRZZ9aowT-CmxJHtyDcX_S3kgm6-FfhsRd6rslbxQStwqrLQ'
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+
+  li-frontend:
+    container_name: li-frontend
+    image: ghcr.io/denisionsoft/life-quality-index/li-frontend:latest
+    ports:
+      - "8081:8081"
+    depends_on:
+      li-backend:
+        condition: service_healthy

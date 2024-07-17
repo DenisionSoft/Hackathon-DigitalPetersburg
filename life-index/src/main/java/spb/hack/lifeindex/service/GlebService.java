@@ -1,6 +1,5 @@
 package spb.hack.lifeindex.service;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import spb.hack.lifeindex.model.GeoPoint;
 

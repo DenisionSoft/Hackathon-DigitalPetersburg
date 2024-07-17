@@ -1,7 +1,7 @@
 package spb.hack.lifeindex.client.impl;
 
 import lombok.AllArgsConstructor;
-import org.antlr.v4.runtime.misc.Pair;
+import spb.hack.lifeindex.util.Pair;
 import org.springframework.stereotype.Service;
 import spb.hack.lifeindex.client.ApiClient;
 import spb.hack.lifeindex.client.ProxyClient;

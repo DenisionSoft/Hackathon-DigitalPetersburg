@@ -2,18 +2,13 @@ package spb.hack.lifeindex.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import spb.hack.lifeindex.model.House;
 import spb.hack.lifeindex.model.Index;
-import spb.hack.lifeindex.model.dto.*;
+import spb.hack.lifeindex.model.dto.FrontendRequestDto;
+import spb.hack.lifeindex.model.dto.RequestParamsDto;
+import spb.hack.lifeindex.model.dto.ResponseDataDto;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.concurrent.*;
-import java.util.stream.IntStream;
-
-// import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 
 @Service
 @AllArgsConstructor
@@ -21,13 +16,12 @@ public class IndexService {
 
     private final ClinicService clinicService;
     private final GeocoderService geocoderService;
-    //private final KinderService kinderService;
     private final SchoolService schoolService;
     private final RestaurantService restaurantService;
     private final MuseumService museumService;
     private final OurPetersburgService ourPetersburgService;
 
-    public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) /*throws Exception*/ {
+    public ArrayList<Index> getIndex(FrontendRequestDto frontendRequestDto) {
 
         ArrayList<Index> indexes = new ArrayList<>();
 
@@ -54,6 +48,7 @@ public class IndexService {
 
             ResponseDataDto responseDataDto;
             responseDataDto = clinicService.getAllData(requestParamsDto);
+            System.out.println(responseDataDto);
             ArrayList<Double> distances = new ArrayList<>();
             for(int i = 0; i < responseDataDto.getGeoData().size(); i++) {
                 Double distance = GlebService.distance(house.getGeoPoint(), responseDataDto.getGeoData().get(i).a);
@@ -85,6 +80,7 @@ public class IndexService {
             //System.out.println(responseDataDto);
             distances.clear();
 
+            // Removed - restaurantService, was not working at the moment
             /*
             responseDataDto = restaurantService.getAllData(requestParamsDto);
             for(int i = 0; i < responseDataDto.getGeoData().size(); i++) {
@@ -104,6 +100,7 @@ public class IndexService {
 
              */
 
+            // Removed - ourPetersburgService, was not working at the moment
             /*
             Double ourPetersburgIndex = 0.0;
             responseDataDto = ourPetersburgService.getAllData(requestParamsDto);
@@ -155,6 +152,8 @@ public class IndexService {
             ourPetersburgIndex /= responseDataDto.getArrayStringData().size();
 
              */
+
+            // Removed - schoolService, was not working at the moment
             /*
             distances.clear();
             responseDataDto = schoolService.getAllData(requestParamsDto);
@@ -171,7 +170,7 @@ public class IndexService {
 
              */
             //System.out.println(responseDataDto);
-            Double value = (/*restIndex*/ + clinicIndex + museumIndex /*+schoolIndex*/ /*+ourPetersburgIndex*/) / 3;
+            Double value = (/*restIndex*/ + clinicIndex + museumIndex /*+schoolIndex*/ /*+ourPetersburgIndex*/) / 2;
 
             value = value * 100;
             Integer valueRounded = value.intValue();
@@ -182,85 +181,5 @@ public class IndexService {
         }
 
         return indexes;
-
-            /*
-            //callables.add(schoolService.getAllData(requestParamsDto));
-            //callables.add(restaurantService.getAllData(requestParamsDto));
-
-            callables.add(clinicService.getAllData(requestParamsDto));
-            //callables.add(ProblemsService());
-            //callables.add(TheatresService());
-            //callables.add(CinemasService());
-            //callables.add(CudaGoService());
-            //callables.add(SportgroundsService());
-            //callables.add(SchoolsService());
-            //callables.add(RestaurantService());
-            //callables.add(RecyclingService());
-            //callables.add(PetService());
-            //callables.add(MuseumService());
-            //callables.add(LibrariesService());
-            //callables.add(KindergartensService());
-            //callables.add(BeautifulPlacesService());
-            //callables.add(TransportService());
-            int i = 0;
-            for (Callable<ResponseDataDto> callable : callables) {
-                indexFutureList.set(i,executorService.execute(callables.get(i)));
-                i++;
-            }
-            for (int i = 0; i<15;i++)
-            {
-                try {
-                    indexFutureList.get(i).get(30, TimeUnit.SECONDS);
-                } catch (TimeoutException ex){
-                    retryCounter.set(i,retryCounter.get(i)+5);
-                    indexFutureList.set(i,executorService.execute(callables.get(i)));
-                    toRetry = true;
-                } catch (Exception ex) {
-                    retryCounter.set(i,retryCounter.get(i)+1);
-                    indexFutureList.set(i,executorService.execute(callables.get(i)));
-                    toRetry = true;
-                } finally {
-                    if (retryCounter.get(i) >=5)
-                    {
-                        totalWeight-=Weights.get(i);
-                        Weights.set(i, 0);
-                        dropCount++;
-                    }
-                    if (dropCount==5){
-                        throw new Exception("Слишком много ошибок");
-                    }
-                    if (i==14&&toRetry){
-                        toRetry = false;
-                        i = 0;
-                    }
-                }
-            }
-        }
-        //Нужно выполнить чтоб закрылись все потоки
-        executorService.shutdownNow();
-        ArrayList<Double> ansIndexes = new ArrayList<Double>(16);
-        double totalIndex = 0;
-        for (int i = 1; i<16;i++){
-            ansIndexes.set(i,indexFutureList.get(i-1).get());
-            totalIndex += indexFutureList.get(i-1).get();
-        }
-        totalIndex/=totalWeight;
-        ansIndex.set(0, new Index(totalIndex));
-        callables.clear();
-        return ansIndexes;
-        ExecutorService executor = Executors.newCachedThreadPool();
-        Future<Index> future = executor.submit(GetMinCultIndex());
-        try {
-        Object result = future.get(30, TimeUnit.SECONDS); 
-        } catch (TimeoutException ex) {
-
-        } catch (InterruptedException e) {
-        // handle the interrupts
-        } catch (ExecutionException e) {
-        // handle other exceptions
-        } finally {
-        future.cancel(true); // may or may not desire this
-        }
-        return null;*/
     }
 }

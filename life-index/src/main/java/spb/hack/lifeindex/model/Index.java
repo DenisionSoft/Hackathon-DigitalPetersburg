@@ -2,6 +2,7 @@ package spb.hack.lifeindex.model;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+
 import java.util.ArrayList;
 
 @Data

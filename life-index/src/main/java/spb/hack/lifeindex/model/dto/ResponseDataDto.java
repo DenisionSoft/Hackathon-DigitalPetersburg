@@ -3,7 +3,7 @@ package spb.hack.lifeindex.model.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.antlr.v4.runtime.misc.Pair;
+import spb.hack.lifeindex.util.Pair;
 import spb.hack.lifeindex.model.District;
 import spb.hack.lifeindex.model.GeoPoint;
 

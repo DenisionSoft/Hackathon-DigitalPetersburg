@@ -61,7 +61,7 @@ export default {
       this.page = 3
       var json = JSON.stringify({"amount": 1, "radius": this.radius, "addresses": [this.adress], "parameters": this.params})
       axios
-      .post('//84.201.167.97:8080/api/index', json, {
+      .post('//localhost:8080/api/index', json, {
         headers: {
           'Content-Type': 'application/json'
         }
@@ -85,7 +85,7 @@ export default {
       this.params = params
       var json = JSON.stringify({"amount": this.multipleAdress.length, "radius": this.radius, "addresses": this.multipleAdress, "parameters": this.params})
       axios
-      .post('//84.201.167.97:8080/api/index', json, {
+      .post('//localhost:8080/api/index', json, {
         headers: {
           'Content-Type': 'application/json'
         }
